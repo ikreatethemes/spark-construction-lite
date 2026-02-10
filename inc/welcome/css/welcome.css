@@ -408,16 +408,15 @@ a.buy-pro-btn:hover {
 }
 
 .welcome-upgrade-box .upgrade-button {
-    display: inline-block;
-    padding: 14px 50px;
-    background: #2271b1;
-    color: #FFF;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 50px;
     text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 2px;
+    font-weight: 700;
 }
-
+.welcome-upgrade-box .upgrade-button .dashicons {
+    margin-right:5px;
+}
 /** Welcome Notice **/
 .sparkconstructionlite-welcome-notice-wrap {
     position: relative;
