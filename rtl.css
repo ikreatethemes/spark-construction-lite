@@ -1,0 +1,395 @@
+/* ============================================================
+   RTL Stylesheet for Spark Construction Lite
+   ============================================================ */
+
+html {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Text Alignment */
+.desktop-text-left, .text-left {
+    text-align: right;
+}
+.desktop-text-right,
+.text-right {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+
+/* Icon & Button Flipping */
+.btn::after,
+.btn-icon,
+.sparkconstructionlite-button .elementor-icon,
+.ikbutton-single-wrap.style1::after,
+.arrow-icon,
+.chevron-icon {
+    transform: scaleX(-1);
+}
+
+/* Header & Navigation */
+.site-branding {
+    margin-right: 1rem;
+    margin-left: auto;
+}
+.box-header-nav {
+    margin-right: 1rem;
+    margin-left: auto;
+}
+
+/* Logo alignment */
+.site-logo,
+.site-branding img {
+    float: right;
+}
+.box-header-nav .main-menu .page_item.page_item_has_children>a::after, 
+.box-header-nav .main-menu>.menu-item.menu-item-has-children>a::after {
+    margin-right: 2px;
+}
+/* Submenu Navigation */
+.nav-menu .main-menu .children li:hover > a, 
+.nav-menu .main-menu .sub-menu li:hover > a {
+    padding-left: 30px;
+    padding-right: 0;
+}
+.nav-menu .main-menu .sub-menu li>a:hover:before, 
+.nav-menu .main-menu .children li>a:hover:before, 
+.nav-menu .main-menu .sub-menu li.current_page_item>a:before, 
+.nav-menu .main-menu .children li.current_page_item>a:before, 
+.nav-menu .main-menu .sub-menu li.current-menu-item>a:before, 
+.nav-menu .main-menu .children li.current-menu-item>a:before {
+    left: 15px;
+    right: auto;
+}
+
+/* Submenu positioning */
+.nav-menu .main-menu .sub-menu,
+.nav-menu .main-menu .children {
+    left: auto;
+    right: 0;
+}
+
+/* HomePage Block Elements */
+.about-wrapper .super-title::after {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.achivement-icon-wrapper:after {
+    left: 28px;
+    right: auto;
+}
+.about-video-link.box-shadow-ripples {
+    margin-left: 25px;
+    margin-right: 0;
+}
+.about-profile-img {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.style4 .service-area-item-block {
+    padding-left: 140px;
+    padding-right: 0;
+}
+
+/* Section Title Elements */
+.section-title-wrapper .super-title:before {
+    right: calc(100% + 20px);
+    left: auto;
+}
+.section-title-wrapper .super-title:after {
+    left: calc(100% + 20px);
+    right: auto;
+}
+
+.section-title-wrapper.style2.text-right .section-title::before {
+    left: auto;
+    right: 0;
+}
+.section-title-wrapper.style2.text-left .section-title::before {
+    right: auto;
+    left: 0;
+}
+.section-title-wrapper.style2.text-right .section-title::after {
+    left: auto;
+    right: 0;
+    background: linear-gradient(90deg, transparent 0%, var(--theme-color) 50%, var(--theme-color) 100%);
+}
+.section-title-wrapper.style2.text-left .section-title::after {
+    right: auto;
+    left: 0;
+    background: linear-gradient(90deg, var(--theme-color) 0%, var(--theme-color) 50%, transparent 100%);
+}
+
+.section-title-wrapper.text-right.style5 {
+    padding-right: 20px;
+    padding-left: 0;
+    border-right: 5px solid var(--theme-color);
+    border-left: 0;
+}
+.section-title-wrapper.text-left.style5 {
+    padding-left: 20px;
+    padding-right: 0;
+    border-left: 5px solid var(--theme-color);
+    border-right: 0;
+}
+
+.sparkconstructionlite-progress-title {
+    text-align: right;
+}
+
+.sparkconstructionlite-top-content .sparkconstructionlite-service-count {
+    right: 25px;
+    left: auto;
+}
+.sparkconstructionlite-service-count {
+    right: 30px;
+    left: auto;
+}
+.sparkconstructionlite-service-area.style4 .sparkconstructionlite-bottom-content{
+    padding-left: 140px;
+    padding-right: 0;
+}
+
+/* Post Meta & Icons */
+.ikthemes-entry-meta .avatar {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.ikthemes-touch-icon {
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+/* Lists and Content */
+ul, ol {
+    margin-right: 0;
+    margin-left: 1.5em;
+}
+
+/* Blockquote */
+blockquote {
+    border-right: 4px solid var(--theme-color);
+    border-left: 0;
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+/* Toggle Service */
+.sparkconstructionlite-toggle-service-wrap .sparkconstructionlite-toggle-icon-wrapper:after {
+    left: 30px;
+    right: auto;
+}
+.sparkconstructionlite-position-layout-right .sparkconstructionlite-toggle-service-wrap .sparkconstructionlite-toggle-icon-wrapper:after {
+    right: 30px;
+    left: auto;
+}
+.sparkconstructionlite-position-layout-left .sparkconstructionlite-toggle-service-wrap .sparkconstructionlite-toggle-icon-wrapper:after {
+    left: 30px;
+    right: auto;
+}
+.sparkconstructionlite-position-layout-right .sparkconstructionlite-toggle-service-block-wrap{
+    text-align: right;
+}
+
+/* Tabs */
+.sparkconstructionlite-tab-layout-right .sparkconstructionlite-tab-wrapper.style2 .sparkconstructionlite-tab-item.tab-active::after {
+    left: auto;
+    right: -100%;
+    transform: scaleX(-1);
+}
+.sparkconstructionlite-tab-layout-left .sparkconstructionlite-tab-wrapper.style2 .sparkconstructionlite-tab-item.tab-active::after {
+    left: -100%;
+    right: 0;
+    transform: scaleX(-1);
+}
+.sparkconstructionlite-tab-wrapper.style3 .sparkconstructionlite-tabs-wrap .sparkconstructionlite-tab-item {
+    margin-right: 15px;
+    margin-left: 0;
+}
+.sparkconstructionlite-tab-wrapper.style3 .sparkconstructionlite-tabs-wrap .sparkconstructionlite-tab-item.tab-active:after {
+    right: -18px;
+    left: auto;
+}
+.sparkconstructionlite-tab-wrapper.style3 .sparkconstructionlite-tabs-wrap::after {
+    right: 0;
+    left: auto;
+}
+.sparkconstructionlite-tab-layout-left .sparkconstructionlite-tab-wrapper.style3 .sparkconstructionlite-tabs-wrap::after {
+    left: 0;
+    right: auto;
+}
+.sparkconstructionlite-tab-layout-left .sparkconstructionlite-tab-wrapper.style3 .sparkconstructionlite-tabs-wrap .sparkconstructionlite-tab-item {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.sparkconstructionlite-tab-layout-left .sparkconstructionlite-tab-wrapper.style3 .sparkconstructionlite-tabs-wrap .sparkconstructionlite-tab-item.tab-active:after {
+    left: -18px;
+    right: auto;
+}
+
+/* Mobile Menu RTL */
+@media screen and (max-width: 1024px) {
+    .site-branding {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    /* Mobile hamburger menu */
+    .header-nav-toggle {
+        order: 2;
+    }
+
+    /* Sidebar positioning for RTL */
+    .header-mobile-menu {
+        left: auto;
+        right: 0;
+        border-left: 1px solid #ddd;
+        border-right: none;
+    }
+
+    /* Mobile navigation items */
+    .header-mobile-menu .nav-menu > li {
+        border-right: 3px solid transparent;
+        border-left: none;
+        padding-right: 10px;
+        padding-left: 0;
+    }
+
+    .header-mobile-menu .nav-menu > li.current-menu-item {
+        border-right-color: var(--theme-color);
+    }
+
+    /* Mobile submenu */
+    .header-mobile-menu .nav-menu .sub-menu,
+    .header-mobile-menu .nav-menu .children {
+        margin-right: 15px;
+        margin-left: 0;
+    }
+
+    /* Sidebar RTL alignment */
+    .sidebar-left {
+        margin-right: 20px;
+        margin-left: 0;
+    }
+
+    .sidebar-right {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+
+/* Tablet RTL */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    /* Collapsed navigation */
+    .nav-classic .nav-menu {
+        right: 0;
+        left: auto;
+    }
+
+    /* Floating elements in RTL */
+    .alignleft {
+        float: right;
+        margin-right: 0;
+        margin-left: 15px;
+    }
+
+    .alignright {
+        float: left;
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    /* Flex direction for RTL columns */
+    .d-flex {
+        flex-direction: row-reverse;
+    }
+
+    /* Service boxes alignment */
+    .service-box {
+        text-align: right;
+    }
+
+    .service-icon {
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+/* Small Mobile RTL */
+@media screen and (max-width: 576px) {
+    /* Single column layout */
+    .d-grid-column-2,
+    .d-grid-column-3,
+    .d-grid-column-4 {
+        grid-template-columns: 1fr;
+    }
+
+    /* Sidebar stacking */
+    .content-with-sidebar {
+        flex-direction: column-reverse;
+    }
+
+    /* Full width items */
+    .item-full-width {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    /* Mobile buttons */
+    .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Contact form inputs RTL */
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    select {
+        text-align: right;
+    }
+
+    /* List items padding */
+    li {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+}
+
+/* Print RTL */
+@media print {
+    body {
+        direction: rtl;
+        text-align: right;
+    }
+
+    .no-print {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
