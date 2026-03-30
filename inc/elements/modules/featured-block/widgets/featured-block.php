@@ -224,8 +224,8 @@ class FeaturedBlock extends Widget_Base {
                     'skin' => 'inline',
                     'label_block' => false,
                     'default' => [
-                        'library' => 'fa-solid',
-                        'value' => 'fas fa-long-arrow-alt-right',
+                        'library' => '',
+                        'value' => '',
                     ],
                     'skin_settings' => [
                         'inline' => [
@@ -1191,7 +1191,13 @@ class FeaturedBlock extends Widget_Base {
                             <<?php Utils::print_validated_html_tag( $button_tag ); ?> <?php $this->print_render_attribute_string( 'onlybutton' ); ?>>
                                 <?php $this->print_unescaped_setting( 'button' ); ?>
                                 <span class="sparkconstructionlite-link-icon elementor-icon">
-                                    <?php Icons_Manager::render_icon($settings['link_icon'], ['aria-hidden' => 'true']); ?>
+                                    <?php 
+                                        if (!empty($settings['link_icon']['value'])) {
+                                            Icons_Manager::render_icon($settings['link_icon'], ['aria-hidden' => 'true']);
+                                        } else {
+                                            echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                        }
+                                    ?>
                                 </span>
                             </<?php Utils::print_unescaped_internal_string( $button_tag ); ?>>
                         </div>
@@ -1242,7 +1248,13 @@ class FeaturedBlock extends Widget_Base {
                             <<?php Utils::print_validated_html_tag( $button_tag ); ?> <?php $this->print_render_attribute_string( 'onlybutton' ); ?>>
                                 <?php $this->print_unescaped_setting( 'button' ); ?>
                                 <span class="sparkconstructionlite-link-icon elementor-icon">
-                                    <?php Icons_Manager::render_icon($settings['link_icon'], ['aria-hidden' => 'true']); ?>
+                                    <?php 
+                                        if (!empty($settings['link_icon']['value'])) {
+                                            Icons_Manager::render_icon($settings['link_icon'], ['aria-hidden' => 'true']);
+                                        } else {
+                                            echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                        }
+                                    ?>
                                 </span>
                             </<?php Utils::print_unescaped_internal_string( $button_tag ); ?>>
                         </div>

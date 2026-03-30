@@ -49,6 +49,7 @@ $wp_customize->add_control(new SparkConstructionLite_Switch_Control($wp_customiz
                     'sparkconstructionlite_home_post_author_options',
                     'sparkconstructionlite_home_post_date_options',
                     'sparkconstructionlite_home_post_reading_time',
+                    'sparkconstructionlite_blog_excerpt_length',
                     'sparkconstructionlite_blog_home_btn',
                 ),
                 'active' => true,
@@ -236,6 +237,20 @@ $wp_customize->add_control(new SparkConstructionLite_Switch_Control($wp_customiz
         ),
     )));
 
+    $wp_customize->add_setting( 'sparkconstructionlite_blog_excerpt_length', array(
+        'default'    => 20,
+        'sanitize_callback' => 'absint'
+    ));
+    $wp_customize->add_control(new SparkConstructionLite_Themes_Range_Control($wp_customize, 'sparkconstructionlite_blog_excerpt_length', array(
+        'section' => 'sparkconstructionlite_blog_section',
+        'label' => esc_html__('Excerpt Length (words number)', 'spark-construction-lite'),
+        'input_attrs' => array(
+            'min' => 10,
+            'max' => 100,
+            'step' => 5
+        )
+    )));
+
     $wp_customize->add_setting( 'sparkconstructionlite_blog_home_btn', array(
         'transport' => 'postMessage',
         'default'  => esc_html__( 'Read More','spark-construction-lite' ),
@@ -272,6 +287,7 @@ $wp_customize->selective_refresh->add_partial( "sparkconstructionlite_home_blog_
         'sparkconstructionlite_blog_display_style',
         'sparkconstructionlite_blog_categories',
         'sparkconstructionlite_posts_num',	
+        'sparkconstructionlite_blog_excerpt_length',
     ),
     'selector' => "#blog-section",
     'fallback_refresh' => true,

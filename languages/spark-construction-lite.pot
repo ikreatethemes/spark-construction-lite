@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Spark Construction Lite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-10 06:52+0000\n"
+"POT-Creation-Date: 2026-02-13 15:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -56,7 +56,7 @@ msgid ""
 "need or not, if not, we have a 14 day money back guarantee."
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:257
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:272
 msgid "(3+) Different Layout & Settings"
 msgstr ""
 
@@ -77,7 +77,7 @@ msgstr ""
 msgid "(5+) Different Layout & Settings"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:259
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:274
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:269
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:255
 #: inc/customizer/customizer-panel/home/home-contact-settings.php:238
@@ -315,7 +315,7 @@ msgid "4+ Different Background Option ( Color/ Video/ Gradient/ Image ) "
 msgstr ""
 
 #: inc/customizer/customizer-panel/footer.php:223
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:263
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:278
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:259
 #: inc/customizer/customizer-panel/home/home-contact-settings.php:241
 #: inc/customizer/customizer-panel/home/home-services-settings.php:289
@@ -548,7 +548,7 @@ msgstr ""
 #: inc/welcome/sections/free_vs_pro.php:157
 #: inc/welcome/sections/free_vs_pro.php:175
 #: inc/welcome/sections/free_vs_pro.php:193
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:62
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:63
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:62
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:58
 #: inc/customizer/customizer-panel/home/home-contact-settings.php:60
@@ -618,12 +618,12 @@ msgid "Advanced user friendly customizer"
 msgstr ""
 
 #: inc/elements/modules/contact-section/widgets/contact-section.php:224
-#: inc/elements/modules/blog-section/widgets/blog-section.php:333
+#: inc/elements/modules/blog-section/widgets/blog-section.php:331
 msgid "After"
 msgstr ""
 
 #: inc/customizer/customizer-panel/blog.php:104
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:108
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:109
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:108
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:104
 #: inc/customizer/customizer-panel/home/home-services-settings.php:105
@@ -643,21 +643,21 @@ msgstr ""
 #: inc/elements/modules/counter-block/widgets/counter-block.php:316
 #: inc/elements/modules/counter-block/widgets/counter-block.php:373
 #: inc/elements/modules/working-process/widgets/working-process.php:175
-#: inc/elements/modules/working-process/widgets/working-process.php:762
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:457
+#: inc/elements/modules/working-process/widgets/working-process.php:753
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:461
 #: inc/elements/modules/heading/widgets/heading.php:89
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:548
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:332
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:721
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:387
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:288
-#: inc/elements/modules/service-block/widgets/service-block.php:585
+#: inc/elements/modules/service-block/widgets/service-block.php:567
 #: inc/elements/modules/video-popup/widgets/video-popup.php:251
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:786
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:786
 #: inc/elements/modules/team-block/widgets/team-block.php:474
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:362
-#: inc/elements/modules/blog-section/widgets/blog-section.php:417
+#: inc/elements/modules/blog-section/widgets/blog-section.php:415
 #: inc/elements/modules/featured-block/widgets/featured-block.php:424
 msgid "Alignment"
 msgstr ""
@@ -707,7 +707,7 @@ msgstr ""
 msgid "Angela Carbone"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1394
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1398
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:341
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:360
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:379
@@ -721,7 +721,7 @@ msgstr ""
 
 #: inc/elements/modules/counter-block/widgets/counter-block.php:134
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1004
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1406
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1410
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:590
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:757
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:990
@@ -784,11 +784,11 @@ msgstr ""
 msgid "Aspect Ratio"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:215
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:216
 msgid "Author"
 msgstr ""
 
-#: inc/elements/modules/blog-section/widgets/blog-section.php:736
+#: inc/elements/modules/blog-section/widgets/blog-section.php:734
 msgid "Author Avatar"
 msgstr ""
 
@@ -833,7 +833,7 @@ msgstr ""
 #: inc/customizer/customizer-panel/header-cta.php:121
 #: inc/elements/modules/slider-block/widgets/slider-block.php:257
 #: inc/elements/modules/image-flipster/widgets/image-flipster.php:116
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1450
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1454
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:332
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:428
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:332
@@ -863,20 +863,20 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1656
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1783
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1820
-#: inc/elements/modules/working-process/widgets/working-process.php:426
-#: inc/elements/modules/working-process/widgets/working-process.php:520
-#: inc/elements/modules/working-process/widgets/working-process.php:655
+#: inc/elements/modules/working-process/widgets/working-process.php:417
+#: inc/elements/modules/working-process/widgets/working-process.php:511
+#: inc/elements/modules/working-process/widgets/working-process.php:646
 #: inc/elements/modules/image-flipster/widgets/image-flipster.php:271
 #: inc/elements/modules/image-flipster/widgets/image-flipster.php:299
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:744
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1239
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:748
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1243
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:237
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:476
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:595
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:988
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:350
-#: inc/elements/modules/service-block/widgets/service-block.php:482
-#: inc/elements/modules/service-block/widgets/service-block.php:699
+#: inc/elements/modules/service-block/widgets/service-block.php:464
+#: inc/elements/modules/service-block/widgets/service-block.php:681
 #: inc/elements/modules/video-popup/widgets/video-popup.php:193
 #: inc/elements/modules/team-block/widgets/team-block.php:348
 #: inc/elements/modules/team-block/widgets/team-block.php:746
@@ -885,8 +885,8 @@ msgstr ""
 #: inc/elements/modules/contact-section/widgets/contact-section.php:428
 #: inc/elements/modules/contact-section/widgets/contact-section.php:580
 #: inc/elements/modules/contact-section/widgets/contact-section.php:611
-#: inc/elements/modules/blog-section/widgets/blog-section.php:514
-#: inc/elements/modules/blog-section/widgets/blog-section.php:809
+#: inc/elements/modules/blog-section/widgets/blog-section.php:512
+#: inc/elements/modules/blog-section/widgets/blog-section.php:807
 #: inc/elements/modules/featured-block/widgets/featured-block.php:778
 #: inc/elements/modules/featured-block/widgets/featured-block.php:817
 msgid "Background Color"
@@ -943,7 +943,7 @@ msgid "Basic"
 msgstr ""
 
 #: inc/elements/modules/contact-section/widgets/contact-section.php:220
-#: inc/elements/modules/blog-section/widgets/blog-section.php:329
+#: inc/elements/modules/blog-section/widgets/blog-section.php:327
 msgid "Before"
 msgstr ""
 
@@ -969,9 +969,9 @@ msgid "Blank Template(For Page Builders)"
 msgstr ""
 
 #: inc/elements/modules/slider-block/widgets/slider-block.php:341
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1485
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1489
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:1072
-#: inc/elements/modules/service-block/widgets/service-block.php:1046
+#: inc/elements/modules/service-block/widgets/service-block.php:1028
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:677
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:677
 #: inc/elements/modules/team-block/widgets/team-block.php:830
@@ -1046,20 +1046,20 @@ msgstr ""
 
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1358
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1753
-#: inc/elements/modules/working-process/widgets/working-process.php:712
-#: inc/elements/modules/working-process/widgets/working-process.php:934
-#: inc/elements/modules/working-process/widgets/working-process.php:1184
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:639
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:730
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1019
+#: inc/elements/modules/working-process/widgets/working-process.php:703
+#: inc/elements/modules/working-process/widgets/working-process.php:925
+#: inc/elements/modules/working-process/widgets/working-process.php:1175
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:643
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:734
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1023
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:258
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:529
-#: inc/elements/modules/service-block/widgets/service-block.php:863
+#: inc/elements/modules/service-block/widgets/service-block.php:845
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:515
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:551
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:515
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:551
-#: inc/elements/modules/blog-section/widgets/blog-section.php:866
+#: inc/elements/modules/blog-section/widgets/blog-section.php:864
 #: inc/elements/modules/featured-block/widgets/featured-block.php:576
 #: inc/elements/modules/featured-block/widgets/featured-block.php:1000
 msgid "Border Radius"
@@ -1079,30 +1079,30 @@ msgstr ""
 #: inc/elements/modules/counter-block/widgets/counter-block.php:263
 #: inc/elements/modules/slider-block/widgets/slider-block.php:511
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1153
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:494
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:498
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:504
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:370
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:677
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:343
-#: inc/elements/modules/service-block/widgets/service-block.php:529
+#: inc/elements/modules/service-block/widgets/service-block.php:511
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:823
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:823
 #: inc/elements/modules/team-block/widgets/team-block.php:430
-#: inc/elements/modules/blog-section/widgets/blog-section.php:373
+#: inc/elements/modules/blog-section/widgets/blog-section.php:371
 #: inc/elements/modules/featured-block/widgets/featured-block.php:380
 msgid "Bottom"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:909
+#: inc/elements/modules/working-process/widgets/working-process.php:900
 #: inc/elements/modules/image-flipster/widgets/image-flipster.php:146
 msgid "Bottom Center"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:910
+#: inc/elements/modules/working-process/widgets/working-process.php:901
 msgid "Bottom Left"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:911
+#: inc/elements/modules/working-process/widgets/working-process.php:902
 msgid "Bottom Right"
 msgstr ""
 
@@ -1149,15 +1149,15 @@ msgid "Browse:"
 msgstr ""
 
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1326
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:987
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:991
 #: inc/elements/modules/featured-block/widgets/featured-block.php:965
 msgid "Button"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:1152
+#: inc/elements/modules/working-process/widgets/working-process.php:1143
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:497
-#: inc/elements/modules/service-block/widgets/service-block.php:831
-#: inc/elements/modules/blog-section/widgets/blog-section.php:834
+#: inc/elements/modules/service-block/widgets/service-block.php:813
+#: inc/elements/modules/blog-section/widgets/blog-section.php:832
 msgid "Button (Read More)"
 msgstr ""
 
@@ -1191,7 +1191,7 @@ msgid "Button Style"
 msgstr ""
 
 #: inc/customizer/customizer-panel/blog.php:116
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:245
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:260
 #: inc/customizer/customizer-panel/home/home-services-settings.php:186
 #: inc/customizer/customizer-panel/home/home-services-settings.php:237
 #: inc/customizer/customizer-panel/home/home-slider-settings.php:131
@@ -1234,6 +1234,7 @@ msgid "Buy Now ($59 only)"
 msgstr ""
 
 #: patterns/slider-one.php:33
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:330
 msgid "Buy Themes"
 msgstr ""
 
@@ -1290,8 +1291,8 @@ msgstr ""
 
 #: inc/customizer/customizer-panel/blog.php:102
 #: inc/customizer/customizer-panel/blog.php:220
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:105
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:157
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:106
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:158
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:106
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:191
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:101
@@ -1318,8 +1319,8 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1119
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1179
 #: inc/elements/modules/working-process/widgets/working-process.php:183
-#: inc/elements/modules/working-process/widgets/working-process.php:770
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:465
+#: inc/elements/modules/working-process/widgets/working-process.php:761
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:469
 #: inc/elements/modules/heading/widgets/heading.php:97
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:557
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:227
@@ -1327,26 +1328,26 @@ msgstr ""
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:730
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:396
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:297
-#: inc/elements/modules/service-block/widgets/service-block.php:598
+#: inc/elements/modules/service-block/widgets/service-block.php:580
 #: inc/elements/modules/video-popup/widgets/video-popup.php:259
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:794
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:794
 #: inc/elements/modules/team-block/widgets/team-block.php:483
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:371
-#: inc/elements/modules/blog-section/widgets/blog-section.php:426
+#: inc/elements/modules/blog-section/widgets/blog-section.php:424
 #: inc/elements/modules/featured-block/widgets/featured-block.php:433
 msgid "Center"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:903
+#: inc/elements/modules/working-process/widgets/working-process.php:894
 msgid "Center Center"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:904
+#: inc/elements/modules/working-process/widgets/working-process.php:895
 msgid "Center Left"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:905
+#: inc/elements/modules/working-process/widgets/working-process.php:896
 msgid "Center Right"
 msgstr ""
 
@@ -1428,7 +1429,7 @@ msgstr ""
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:105
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:125
 #: inc/elements/modules/service-block/widgets/service-block.php:181
-#: inc/elements/modules/service-block/widgets/service-block.php:420
+#: inc/elements/modules/service-block/widgets/service-block.php:402
 #: inc/elements/modules/featured-block/widgets/featured-block.php:134
 msgid "Choose Image"
 msgstr ""
@@ -1475,10 +1476,6 @@ msgstr ""
 msgid "Click below to install and activate the Ikreate Demo Importer Plugin."
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:268
-msgid "Click Here"
-msgstr ""
-
 #: inc/welcome/sections/getting_started.php:15
 msgid "Click on "
 msgstr ""
@@ -1514,14 +1511,14 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1253
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1293
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1667
-#: inc/elements/modules/working-process/widgets/working-process.php:532
-#: inc/elements/modules/working-process/widgets/working-process.php:643
-#: inc/elements/modules/working-process/widgets/working-process.php:1073
-#: inc/elements/modules/working-process/widgets/working-process.php:1091
-#: inc/elements/modules/working-process/widgets/working-process.php:1137
+#: inc/elements/modules/working-process/widgets/working-process.php:523
+#: inc/elements/modules/working-process/widgets/working-process.php:634
+#: inc/elements/modules/working-process/widgets/working-process.php:1064
+#: inc/elements/modules/working-process/widgets/working-process.php:1082
+#: inc/elements/modules/working-process/widgets/working-process.php:1128
 #: inc/elements/modules/image-flipster/widgets/image-flipster.php:281
 #: inc/elements/modules/image-flipster/widgets/image-flipster.php:309
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:759
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:763
 #: inc/elements/modules/heading/widgets/heading.php:168
 #: inc/elements/modules/heading/widgets/heading.php:227
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:119
@@ -1549,10 +1546,10 @@ msgstr ""
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:362
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:433
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:476
-#: inc/elements/modules/service-block/widgets/service-block.php:688
-#: inc/elements/modules/service-block/widgets/service-block.php:724
-#: inc/elements/modules/service-block/widgets/service-block.php:766
-#: inc/elements/modules/service-block/widgets/service-block.php:809
+#: inc/elements/modules/service-block/widgets/service-block.php:670
+#: inc/elements/modules/service-block/widgets/service-block.php:706
+#: inc/elements/modules/service-block/widgets/service-block.php:748
+#: inc/elements/modules/service-block/widgets/service-block.php:791
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:866
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:914
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:866
@@ -1567,10 +1564,10 @@ msgstr ""
 #: inc/elements/modules/contact-section/widgets/contact-section.php:297
 #: inc/elements/modules/contact-section/widgets/contact-section.php:591
 #: inc/elements/modules/contact-section/widgets/contact-section.php:622
-#: inc/elements/modules/blog-section/widgets/blog-section.php:607
-#: inc/elements/modules/blog-section/widgets/blog-section.php:652
-#: inc/elements/modules/blog-section/widgets/blog-section.php:700
-#: inc/elements/modules/blog-section/widgets/blog-section.php:820
+#: inc/elements/modules/blog-section/widgets/blog-section.php:605
+#: inc/elements/modules/blog-section/widgets/blog-section.php:650
+#: inc/elements/modules/blog-section/widgets/blog-section.php:698
+#: inc/elements/modules/blog-section/widgets/blog-section.php:818
 #: inc/elements/modules/featured-block/widgets/featured-block.php:766
 #: inc/elements/modules/featured-block/widgets/featured-block.php:805
 #: inc/elements/modules/featured-block/widgets/featured-block.php:869
@@ -1621,7 +1618,7 @@ msgstr ""
 msgid "Color value"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:878
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:882
 msgid "Colors"
 msgstr ""
 
@@ -1664,7 +1661,7 @@ msgstr ""
 msgid "Committed and creative"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:258
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:273
 msgid "Configure Column & Space(Gap)"
 msgstr ""
 
@@ -1807,7 +1804,7 @@ msgstr ""
 msgid "Contact Us With Map"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:888
+#: inc/elements/modules/working-process/widgets/working-process.php:879
 msgid "Contain"
 msgstr ""
 
@@ -1847,8 +1844,8 @@ msgstr ""
 #: inc/elements/modules/working-process/widgets/working-process.php:63
 #: inc/elements/modules/image-flipster/widgets/image-flipster.php:159
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:56
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:776
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1327
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:780
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1331
 #: inc/elements/modules/heading/widgets/heading.php:51
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:61
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:731
@@ -1866,12 +1863,12 @@ msgstr ""
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:61
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:549
 #: inc/elements/modules/blog-section/widgets/blog-section.php:60
-#: inc/elements/modules/blog-section/widgets/blog-section.php:644
+#: inc/elements/modules/blog-section/widgets/blog-section.php:642
 #: inc/elements/modules/featured-block/widgets/featured-block.php:917
 msgid "Content"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:160
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:161
 msgid "Content Alignment"
 msgstr ""
 
@@ -1889,7 +1886,7 @@ msgstr ""
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:746
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:412
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:313
-#: inc/elements/modules/service-block/widgets/service-block.php:553
+#: inc/elements/modules/service-block/widgets/service-block.php:535
 #: inc/elements/modules/team-block/widgets/team-block.php:499
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:387
 #: inc/elements/modules/featured-block/widgets/featured-block.php:450
@@ -1910,7 +1907,7 @@ msgstr ""
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:260
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:275
 msgid "Control Excerpt Character"
 msgstr ""
 
@@ -1955,7 +1952,7 @@ msgid "Counter Settings"
 msgstr ""
 
 #: inc/customizer/customizer-panel/home/home-cta-settings.php:95
-#: inc/elements/modules/working-process/widgets/working-process.php:887
+#: inc/elements/modules/working-process/widgets/working-process.php:878
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:67
 msgid "Cover"
 msgstr ""
@@ -2066,9 +2063,9 @@ msgstr ""
 #: inc/customizer/customizer-panel/home/home-slider-settings.php:88
 #: inc/customizer/customizer-panel/home/home-promoservices-settings.php:149
 #: inc/customizer/customizer-panel/home/home-testimonial-settings.php:157
-#: inc/elements/modules/working-process/widgets/working-process.php:885
+#: inc/elements/modules/working-process/widgets/working-process.php:876
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:128
-#: inc/elements/modules/service-block/widgets/service-block.php:590
+#: inc/elements/modules/service-block/widgets/service-block.php:572
 #: inc/elements/modules/video-popup/widgets/video-popup.php:78
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:141
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:254
@@ -2109,12 +2106,12 @@ msgstr ""
 #: inc/customizer/customizer-panel/home/home-cta-settings.php:197
 #: inc/customizer/customizer-panel/home/home-about-settings.php:250
 #: inc/elements/modules/working-process/widgets/working-process.php:261
-#: inc/elements/modules/working-process/widgets/working-process.php:1110
+#: inc/elements/modules/working-process/widgets/working-process.php:1101
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:232
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:841
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:845
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:439
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:183
-#: inc/elements/modules/service-block/widgets/service-block.php:802
+#: inc/elements/modules/service-block/widgets/service-block.php:784
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:444
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:451
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:459
@@ -2127,8 +2124,8 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:919
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:967
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:923
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:971
 msgid "Description Color"
 msgstr ""
 
@@ -2232,7 +2229,7 @@ msgstr ""
 msgid "Discover More"
 msgstr ""
 
-#: inc/elements/modules/blog-section/widgets/blog-section.php:203
+#: inc/elements/modules/blog-section/widgets/blog-section.php:201
 msgid "Display Comment Count"
 msgstr ""
 
@@ -2252,8 +2249,12 @@ msgstr ""
 msgid "Display Layout"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:186
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:187
 msgid "Display Number of Item"
+msgstr ""
+
+#: inc/elements/modules/blog-section/widgets/blog-section.php:131
+msgid "Display Number of Posts"
 msgstr ""
 
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:108
@@ -2265,11 +2266,11 @@ msgstr ""
 msgid "Display Position"
 msgstr ""
 
-#: inc/elements/modules/blog-section/widgets/blog-section.php:192
+#: inc/elements/modules/blog-section/widgets/blog-section.php:190
 msgid "Display Post Author"
 msgstr ""
 
-#: inc/elements/modules/blog-section/widgets/blog-section.php:180
+#: inc/elements/modules/blog-section/widgets/blog-section.php:178
 msgid "Display Post Meta Date"
 msgstr ""
 
@@ -2283,17 +2284,17 @@ msgstr ""
 msgid "Display Rating Star"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:172
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:173
 #: inc/customizer/customizer-panel/home/home-team-settings.php:346
 #: inc/customizer/customizer-panel/home/home-testimonial-settings.php:270
 msgid "Display Style"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1261
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1265
 msgid "Distance"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:408
+#: inc/elements/modules/working-process/widgets/working-process.php:399
 #: inc/elements/modules/heading/widgets/heading.php:130
 #: inc/elements/modules/heading/widgets/heading.php:149
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:88
@@ -2301,10 +2302,10 @@ msgstr ""
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:445
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:233
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:245
-#: inc/elements/modules/service-block/widgets/service-block.php:464
+#: inc/elements/modules/service-block/widgets/service-block.php:446
 #: inc/elements/modules/team-block/widgets/team-block.php:329
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:221
-#: inc/elements/modules/blog-section/widgets/blog-section.php:298
+#: inc/elements/modules/blog-section/widgets/blog-section.php:296
 #: inc/elements/modules/featured-block/widgets/featured-block.php:193
 msgid "div"
 msgstr ""
@@ -2471,14 +2472,19 @@ msgstr ""
 
 #: inc/elements/modules/working-process/widgets/working-process.php:187
 #: inc/elements/modules/contact-section/widgets/contact-section.php:200
-#: inc/elements/modules/blog-section/widgets/blog-section.php:341
+#: inc/elements/modules/blog-section/widgets/blog-section.php:339
 msgid "End"
 msgstr ""
 
 #: inc/elements/modules/working-process/widgets/working-process.php:264
 #: inc/elements/modules/working-process/widgets/working-process.php:349
-#: inc/elements/modules/working-process/widgets/working-process.php:361
-#: inc/elements/modules/working-process/widgets/working-process.php:373
+#: inc/elements/modules/working-process/widgets/working-process.php:358
+#: inc/elements/modules/working-process/widgets/working-process.php:367
+msgid ""
+"End your search here! Unlock Our Premium Themes to launch your website. All "
+"free themes are fully customizable."
+msgstr ""
+
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:141
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:155
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:161
@@ -2493,11 +2499,11 @@ msgstr ""
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:160
 #: inc/elements/modules/service-block/widgets/service-block.php:226
 #: inc/elements/modules/service-block/widgets/service-block.php:324
-#: inc/elements/modules/service-block/widgets/service-block.php:340
-#: inc/elements/modules/service-block/widgets/service-block.php:356
-#: inc/elements/modules/service-block/widgets/service-block.php:372
-#: inc/elements/modules/service-block/widgets/service-block.php:388
-#: inc/elements/modules/service-block/widgets/service-block.php:404
+#: inc/elements/modules/service-block/widgets/service-block.php:337
+#: inc/elements/modules/service-block/widgets/service-block.php:350
+#: inc/elements/modules/service-block/widgets/service-block.php:363
+#: inc/elements/modules/service-block/widgets/service-block.php:376
+#: inc/elements/modules/service-block/widgets/service-block.php:389
 #: inc/elements/modules/team-block/widgets/team-block.php:187
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:128
 #: inc/elements/modules/featured-block/widgets/featured-block.php:207
@@ -2571,7 +2577,7 @@ msgstr ""
 msgid "Enter your title here"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1347
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1351
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:715
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:948
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:715
@@ -2591,19 +2597,20 @@ msgstr ""
 msgid "example@example.com Or support@example.com"
 msgstr ""
 
-#: inc/elements/modules/blog-section/widgets/blog-section.php:150
+#: inc/elements/modules/blog-section/widgets/blog-section.php:148
 msgid "Excerpt Length (In Character)"
 msgstr ""
 
 #: inc/customizer/customizer-panel/blog.php:127
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:246
 msgid "Excerpt Length (words number)"
 msgstr ""
 
-#: inc/elements/modules/blog-section/widgets/blog-section.php:170
+#: inc/elements/modules/blog-section/widgets/blog-section.php:168
 msgid "Exclude Category"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1370
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1374
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:738
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:971
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:738
@@ -2676,7 +2683,7 @@ msgstr ""
 msgid "Feel Free to Contact"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:886
+#: inc/elements/modules/working-process/widgets/working-process.php:877
 msgid "Fill"
 msgstr ""
 
@@ -2872,7 +2879,7 @@ msgstr ""
 #: inc/customizer/customizer-panel/header.php:219
 #: inc/customizer/customizer-panel/footer.php:216
 #: inc/customizer/customizer-panel/quick-info.php:111
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:255
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:270
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:265
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:251
 #: inc/customizer/customizer-panel/home/home-contact-settings.php:235
@@ -2993,12 +3000,12 @@ msgstr ""
 msgid "Gap"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:420
+#: inc/elements/modules/working-process/widgets/working-process.php:411
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:257
 msgid "General"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:421
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:425
 msgid "General Box"
 msgstr ""
 
@@ -3009,7 +3016,7 @@ msgstr ""
 #: inc/elements/modules/counter-block/widgets/counter-block.php:194
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:330
 #: inc/elements/modules/contact-section/widgets/contact-section.php:185
-#: inc/elements/modules/blog-section/widgets/blog-section.php:318
+#: inc/elements/modules/blog-section/widgets/blog-section.php:316
 #: inc/elements/modules/featured-block/widgets/featured-block.php:295
 msgid "General Style"
 msgstr ""
@@ -3119,12 +3126,12 @@ msgid "Vertical Secondary to Success"
 msgstr ""
 
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:136
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:557
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:561
 #: inc/elements/modules/featured-block/widgets/featured-block.php:66
 msgid "Graphic Element"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:174
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:175
 #: inc/customizer/customizer-panel/home/home-team-settings.php:348
 #: inc/customizer/customizer-panel/home/home-testimonial-settings.php:272
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:163
@@ -3136,7 +3143,7 @@ msgstr ""
 msgid "Growing your Construction"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:402
+#: inc/elements/modules/working-process/widgets/working-process.php:393
 #: inc/elements/modules/heading/widgets/heading.php:124
 #: inc/elements/modules/heading/widgets/heading.php:143
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:82
@@ -3144,10 +3151,10 @@ msgstr ""
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:439
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:227
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:239
-#: inc/elements/modules/service-block/widgets/service-block.php:458
+#: inc/elements/modules/service-block/widgets/service-block.php:440
 #: inc/elements/modules/team-block/widgets/team-block.php:323
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:215
-#: inc/elements/modules/blog-section/widgets/blog-section.php:292
+#: inc/elements/modules/blog-section/widgets/blog-section.php:290
 #: inc/elements/modules/featured-block/widgets/featured-block.php:187
 msgid "H1"
 msgstr ""
@@ -3156,7 +3163,7 @@ msgstr ""
 msgid "H1 To H6 Color Options"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:403
+#: inc/elements/modules/working-process/widgets/working-process.php:394
 #: inc/elements/modules/heading/widgets/heading.php:125
 #: inc/elements/modules/heading/widgets/heading.php:144
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:83
@@ -3164,15 +3171,15 @@ msgstr ""
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:440
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:228
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:240
-#: inc/elements/modules/service-block/widgets/service-block.php:459
+#: inc/elements/modules/service-block/widgets/service-block.php:441
 #: inc/elements/modules/team-block/widgets/team-block.php:324
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:216
-#: inc/elements/modules/blog-section/widgets/blog-section.php:293
+#: inc/elements/modules/blog-section/widgets/blog-section.php:291
 #: inc/elements/modules/featured-block/widgets/featured-block.php:188
 msgid "H2"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:404
+#: inc/elements/modules/working-process/widgets/working-process.php:395
 #: inc/elements/modules/heading/widgets/heading.php:126
 #: inc/elements/modules/heading/widgets/heading.php:145
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:84
@@ -3180,15 +3187,15 @@ msgstr ""
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:441
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:229
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:241
-#: inc/elements/modules/service-block/widgets/service-block.php:460
+#: inc/elements/modules/service-block/widgets/service-block.php:442
 #: inc/elements/modules/team-block/widgets/team-block.php:325
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:217
-#: inc/elements/modules/blog-section/widgets/blog-section.php:294
+#: inc/elements/modules/blog-section/widgets/blog-section.php:292
 #: inc/elements/modules/featured-block/widgets/featured-block.php:189
 msgid "H3"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:405
+#: inc/elements/modules/working-process/widgets/working-process.php:396
 #: inc/elements/modules/heading/widgets/heading.php:127
 #: inc/elements/modules/heading/widgets/heading.php:146
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:85
@@ -3196,15 +3203,15 @@ msgstr ""
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:442
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:230
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:242
-#: inc/elements/modules/service-block/widgets/service-block.php:461
+#: inc/elements/modules/service-block/widgets/service-block.php:443
 #: inc/elements/modules/team-block/widgets/team-block.php:326
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:218
-#: inc/elements/modules/blog-section/widgets/blog-section.php:295
+#: inc/elements/modules/blog-section/widgets/blog-section.php:293
 #: inc/elements/modules/featured-block/widgets/featured-block.php:190
 msgid "H4"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:406
+#: inc/elements/modules/working-process/widgets/working-process.php:397
 #: inc/elements/modules/heading/widgets/heading.php:128
 #: inc/elements/modules/heading/widgets/heading.php:147
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:86
@@ -3212,15 +3219,15 @@ msgstr ""
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:443
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:231
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:243
-#: inc/elements/modules/service-block/widgets/service-block.php:462
+#: inc/elements/modules/service-block/widgets/service-block.php:444
 #: inc/elements/modules/team-block/widgets/team-block.php:327
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:219
-#: inc/elements/modules/blog-section/widgets/blog-section.php:296
+#: inc/elements/modules/blog-section/widgets/blog-section.php:294
 #: inc/elements/modules/featured-block/widgets/featured-block.php:191
 msgid "H5"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:407
+#: inc/elements/modules/working-process/widgets/working-process.php:398
 #: inc/elements/modules/heading/widgets/heading.php:129
 #: inc/elements/modules/heading/widgets/heading.php:148
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:87
@@ -3228,10 +3235,10 @@ msgstr ""
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:444
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:232
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:244
-#: inc/elements/modules/service-block/widgets/service-block.php:463
+#: inc/elements/modules/service-block/widgets/service-block.php:445
 #: inc/elements/modules/team-block/widgets/team-block.php:328
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:220
-#: inc/elements/modules/blog-section/widgets/blog-section.php:297
+#: inc/elements/modules/blog-section/widgets/blog-section.php:295
 #: inc/elements/modules/featured-block/widgets/featured-block.php:192
 msgid "H6"
 msgstr ""
@@ -3338,11 +3345,11 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:643
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1608
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1713
-#: inc/elements/modules/working-process/widgets/working-process.php:584
-#: inc/elements/modules/working-process/widgets/working-process.php:857
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:428
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:530
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:606
+#: inc/elements/modules/working-process/widgets/working-process.php:575
+#: inc/elements/modules/working-process/widgets/working-process.php:848
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:432
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:534
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:610
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:247
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:849
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:688
@@ -3419,40 +3426,40 @@ msgstr ""
 
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1430
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1523
-#: inc/elements/modules/working-process/widgets/working-process.php:1002
-#: inc/elements/modules/working-process/widgets/working-process.php:1085
-#: inc/elements/modules/working-process/widgets/working-process.php:1256
+#: inc/elements/modules/working-process/widgets/working-process.php:993
+#: inc/elements/modules/working-process/widgets/working-process.php:1076
+#: inc/elements/modules/working-process/widgets/working-process.php:1247
 #: inc/elements/modules/image-flipster/widgets/image-flipster.php:293
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:934
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1091
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1184
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1516
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:938
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1095
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1188
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1520
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:305
 #: inc/elements/modules/logo-carousel/widgets/logo-carousel.php:387
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:1104
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:602
-#: inc/elements/modules/service-block/widgets/service-block.php:935
-#: inc/elements/modules/service-block/widgets/service-block.php:1077
+#: inc/elements/modules/service-block/widgets/service-block.php:917
+#: inc/elements/modules/service-block/widgets/service-block.php:1059
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:535
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:650
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:535
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:650
 #: inc/elements/modules/team-block/widgets/team-block.php:862
 #: inc/elements/modules/contact-section/widgets/contact-section.php:605
-#: inc/elements/modules/blog-section/widgets/blog-section.php:620
-#: inc/elements/modules/blog-section/widgets/blog-section.php:713
-#: inc/elements/modules/blog-section/widgets/blog-section.php:938
+#: inc/elements/modules/blog-section/widgets/blog-section.php:618
+#: inc/elements/modules/blog-section/widgets/blog-section.php:711
+#: inc/elements/modules/blog-section/widgets/blog-section.php:936
 #: inc/elements/modules/featured-block/widgets/featured-block.php:667
 #: inc/elements/modules/featured-block/widgets/featured-block.php:799
 #: inc/elements/modules/featured-block/widgets/featured-block.php:1072
 msgid "Hover"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1307
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1336
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1311
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1340
 #: inc/elements/modules/logo-carousel/widgets/logo-carousel.php:418
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:1029
-#: inc/elements/modules/service-block/widgets/service-block.php:998
+#: inc/elements/modules/service-block/widgets/service-block.php:980
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:573
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:705
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:938
@@ -3470,12 +3477,12 @@ msgid "Hover Background Color"
 msgstr ""
 
 #: inc/customizer/customizer-panel/social-settings.php:124
-#: inc/elements/modules/blog-section/widgets/blog-section.php:626
-#: inc/elements/modules/blog-section/widgets/blog-section.php:719
+#: inc/elements/modules/blog-section/widgets/blog-section.php:624
+#: inc/elements/modules/blog-section/widgets/blog-section.php:717
 msgid "Hover Color"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1300
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1304
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:1022
 #: inc/elements/modules/team-block/widgets/team-block.php:780
 #: inc/elements/modules/featured-block/widgets/featured-block.php:589
@@ -3506,14 +3513,14 @@ msgstr ""
 #: inc/elements/modules/counter-block/widgets/counter-block.php:514
 #: inc/elements/modules/working-process/widgets/working-process.php:214
 #: inc/elements/modules/working-process/widgets/working-process.php:237
-#: inc/elements/modules/working-process/widgets/working-process.php:636
+#: inc/elements/modules/working-process/widgets/working-process.php:627
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:149
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:184
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:227
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:198
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:114
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:343
-#: inc/elements/modules/service-block/widgets/service-block.php:658
+#: inc/elements/modules/service-block/widgets/service-block.php:640
 #: inc/elements/modules/team-block/widgets/team-block.php:240
 #: inc/elements/modules/contact-section/widgets/contact-section.php:291
 #: inc/elements/modules/featured-block/widgets/featured-block.php:82
@@ -3535,17 +3542,17 @@ msgstr ""
 msgid "Icon Font Size"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:695
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:699
 msgid "Icon Padding"
 msgstr ""
 
 #: inc/elements/modules/counter-block/widgets/counter-block.php:521
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:666
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:670
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:920
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:965
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:759
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:374
-#: inc/elements/modules/service-block/widgets/service-block.php:665
+#: inc/elements/modules/service-block/widgets/service-block.php:647
 #: inc/elements/modules/video-popup/widgets/video-popup.php:128
 #: inc/elements/modules/team-block/widgets/team-block.php:723
 #: inc/elements/modules/featured-block/widgets/featured-block.php:714
@@ -3569,9 +3576,9 @@ msgid "Ikreate Themes"
 msgstr ""
 
 #: inc/elements/modules/working-process/widgets/working-process.php:210
-#: inc/elements/modules/working-process/widgets/working-process.php:753
+#: inc/elements/modules/working-process/widgets/working-process.php:744
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:145
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:519
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:523
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:813
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:652
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:468
@@ -3598,13 +3605,13 @@ msgstr ""
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:89
 #: inc/elements/modules/service-block/widgets/service-block.php:154
 #: inc/elements/modules/team-block/widgets/team-block.php:92
-#: inc/elements/modules/blog-section/widgets/blog-section.php:444
+#: inc/elements/modules/blog-section/widgets/blog-section.php:442
 #: inc/elements/modules/featured-block/widgets/featured-block.php:109
 msgid "Image Height"
 msgstr ""
 
 #: inc/elements/modules/logo-carousel/widgets/logo-carousel.php:411
-#: inc/elements/modules/service-block/widgets/service-block.php:980
+#: inc/elements/modules/service-block/widgets/service-block.php:962
 msgid "Image Hover Effects"
 msgstr ""
 
@@ -3613,7 +3620,7 @@ msgid "Image Icon"
 msgstr ""
 
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:411
-#: inc/elements/modules/blog-section/widgets/blog-section.php:325
+#: inc/elements/modules/blog-section/widgets/blog-section.php:323
 msgid "Image Position"
 msgstr ""
 
@@ -3634,7 +3641,7 @@ msgstr ""
 msgid "Image Width"
 msgstr ""
 
-#: inc/elements/modules/blog-section/widgets/blog-section.php:466
+#: inc/elements/modules/blog-section/widgets/blog-section.php:464
 msgid "Image Width(%)"
 msgstr ""
 
@@ -3837,8 +3844,8 @@ msgstr ""
 
 #: inc/customizer/customizer-panel/blog.php:100
 #: inc/customizer/customizer-panel/blog.php:218
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:104
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:156
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:105
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:157
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:104
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:190
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:100
@@ -3868,10 +3875,10 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:865
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1115
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1175
-#: inc/elements/modules/working-process/widgets/working-process.php:766
+#: inc/elements/modules/working-process/widgets/working-process.php:757
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:82
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:400
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:461
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:404
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:465
 #: inc/elements/modules/heading/widgets/heading.php:93
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:436
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:553
@@ -3882,8 +3889,8 @@ msgstr ""
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:275
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:392
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:293
-#: inc/elements/modules/service-block/widgets/service-block.php:499
-#: inc/elements/modules/service-block/widgets/service-block.php:594
+#: inc/elements/modules/service-block/widgets/service-block.php:481
+#: inc/elements/modules/service-block/widgets/service-block.php:576
 #: inc/elements/modules/video-popup/widgets/video-popup.php:255
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:790
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:790
@@ -3891,7 +3898,7 @@ msgstr ""
 #: inc/elements/modules/team-block/widgets/team-block.php:479
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:367
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:416
-#: inc/elements/modules/blog-section/widgets/blog-section.php:422
+#: inc/elements/modules/blog-section/widgets/blog-section.php:420
 #: inc/elements/modules/featured-block/widgets/featured-block.php:307
 #: inc/elements/modules/featured-block/widgets/featured-block.php:429
 msgid "Left"
@@ -3948,7 +3955,7 @@ msgstr ""
 msgid "Lightbox"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:500
+#: inc/elements/modules/working-process/widgets/working-process.php:491
 msgid "Line Color"
 msgstr ""
 
@@ -3977,7 +3984,7 @@ msgstr ""
 #: inc/elements/modules/working-process/widgets/working-process.php:297
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:190
 #: inc/elements/modules/service-block/widgets/service-block.php:268
-#: inc/elements/modules/blog-section/widgets/blog-section.php:235
+#: inc/elements/modules/blog-section/widgets/blog-section.php:233
 #: inc/elements/modules/featured-block/widgets/featured-block.php:222
 msgid "Link Icon"
 msgstr ""
@@ -4115,8 +4122,8 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1231
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1272
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1312
-#: inc/elements/modules/working-process/widgets/working-process.php:1046
-#: inc/elements/modules/working-process/widgets/working-process.php:1117
+#: inc/elements/modules/working-process/widgets/working-process.php:1037
+#: inc/elements/modules/working-process/widgets/working-process.php:1108
 #: inc/elements/modules/heading/widgets/heading.php:206
 #: inc/elements/modules/heading/widgets/heading.php:246
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:657
@@ -4134,9 +4141,9 @@ msgstr ""
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:475
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:528
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:574
-#: inc/elements/modules/blog-section/widgets/blog-section.php:573
-#: inc/elements/modules/blog-section/widgets/blog-section.php:671
-#: inc/elements/modules/blog-section/widgets/blog-section.php:751
+#: inc/elements/modules/blog-section/widgets/blog-section.php:571
+#: inc/elements/modules/blog-section/widgets/blog-section.php:669
+#: inc/elements/modules/blog-section/widgets/blog-section.php:749
 #: inc/elements/modules/featured-block/widgets/featured-block.php:847
 #: inc/elements/modules/featured-block/widgets/featured-block.php:903
 #: inc/elements/modules/featured-block/widgets/featured-block.php:950
@@ -4152,7 +4159,7 @@ msgstr ""
 msgid "Masonry"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:823
+#: inc/elements/modules/working-process/widgets/working-process.php:814
 msgid "Max Width"
 msgstr ""
 
@@ -4202,16 +4209,16 @@ msgstr ""
 #: inc/elements/modules/counter-block/widgets/counter-block.php:259
 #: inc/elements/modules/slider-block/widgets/slider-block.php:507
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1149
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:490
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:494
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:500
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:366
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:673
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:339
-#: inc/elements/modules/service-block/widgets/service-block.php:525
+#: inc/elements/modules/service-block/widgets/service-block.php:507
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:819
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:819
 #: inc/elements/modules/team-block/widgets/team-block.php:426
-#: inc/elements/modules/blog-section/widgets/blog-section.php:369
+#: inc/elements/modules/blog-section/widgets/blog-section.php:367
 #: inc/elements/modules/featured-block/widgets/featured-block.php:376
 msgid "Middle"
 msgstr ""
@@ -4309,7 +4316,7 @@ msgstr ""
 msgid "More Than 35+ Separator Shape Illustrator with Color & Height Option"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:264
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:279
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:274
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:260
 #: inc/customizer/customizer-panel/home/home-contact-settings.php:242
@@ -4420,9 +4427,9 @@ msgstr ""
 #: inc/customizer/customizer-panel/quick-info.php:86
 #: inc/customizer/customizer-panel/header-cta.php:19
 #: inc/welcome/sections/free_vs_pro.php:201
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:205
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:220
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:235
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:206
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:221
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:236
 #: inc/customizer/customizer-panel/home/home-contact-settings.php:100
 #: inc/customizer/customizer-panel/home/home-contact-settings.php:152
 #: inc/customizer/customizer-panel/home/home-slider-settings.php:58
@@ -4458,10 +4465,10 @@ msgstr ""
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:267
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:308
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:319
-#: inc/elements/modules/blog-section/widgets/blog-section.php:183
-#: inc/elements/modules/blog-section/widgets/blog-section.php:195
-#: inc/elements/modules/blog-section/widgets/blog-section.php:206
-#: inc/elements/modules/blog-section/widgets/blog-section.php:217
+#: inc/elements/modules/blog-section/widgets/blog-section.php:181
+#: inc/elements/modules/blog-section/widgets/blog-section.php:193
+#: inc/elements/modules/blog-section/widgets/blog-section.php:204
+#: inc/elements/modules/blog-section/widgets/blog-section.php:215
 msgid "No"
 msgstr ""
 
@@ -4490,8 +4497,8 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:769
 #: inc/elements/modules/working-process/widgets/working-process.php:206
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:141
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1341
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1343
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1345
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1347
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:225
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:327
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:440
@@ -4516,23 +4523,23 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1390
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1483
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1777
-#: inc/elements/modules/working-process/widgets/working-process.php:971
-#: inc/elements/modules/working-process/widgets/working-process.php:1067
-#: inc/elements/modules/working-process/widgets/working-process.php:1216
+#: inc/elements/modules/working-process/widgets/working-process.php:962
+#: inc/elements/modules/working-process/widgets/working-process.php:1058
+#: inc/elements/modules/working-process/widgets/working-process.php:1207
 #: inc/elements/modules/image-flipster/widgets/image-flipster.php:265
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:886
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1051
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1144
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1462
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1488
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:890
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1055
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1148
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1466
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1492
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:280
 #: inc/elements/modules/logo-carousel/widgets/logo-carousel.php:368
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:1049
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:1076
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:561
-#: inc/elements/modules/service-block/widgets/service-block.php:895
-#: inc/elements/modules/service-block/widgets/service-block.php:1016
-#: inc/elements/modules/service-block/widgets/service-block.php:1049
+#: inc/elements/modules/service-block/widgets/service-block.php:877
+#: inc/elements/modules/service-block/widgets/service-block.php:998
+#: inc/elements/modules/service-block/widgets/service-block.php:1031
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:477
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:625
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:681
@@ -4542,9 +4549,9 @@ msgstr ""
 #: inc/elements/modules/team-block/widgets/team-block.php:807
 #: inc/elements/modules/team-block/widgets/team-block.php:834
 #: inc/elements/modules/contact-section/widgets/contact-section.php:574
-#: inc/elements/modules/blog-section/widgets/blog-section.php:601
-#: inc/elements/modules/blog-section/widgets/blog-section.php:694
-#: inc/elements/modules/blog-section/widgets/blog-section.php:898
+#: inc/elements/modules/blog-section/widgets/blog-section.php:599
+#: inc/elements/modules/blog-section/widgets/blog-section.php:692
+#: inc/elements/modules/blog-section/widgets/blog-section.php:896
 #: inc/elements/modules/featured-block/widgets/featured-block.php:636
 #: inc/elements/modules/featured-block/widgets/featured-block.php:760
 #: inc/elements/modules/featured-block/widgets/featured-block.php:1032
@@ -4566,11 +4573,11 @@ msgstr ""
 #: inc/customizer/customizer-panel/home/home-slider-settings.php:346
 #: inc/elements/modules/counter-block/widgets/counter-block.php:592
 #: inc/elements/modules/slider-block/widgets/slider-block.php:781
-#: inc/elements/modules/working-process/widgets/working-process.php:494
+#: inc/elements/modules/working-process/widgets/working-process.php:485
 msgid "Number"
 msgstr ""
 
-#: inc/elements/modules/service-block/widgets/service-block.php:714
+#: inc/elements/modules/service-block/widgets/service-block.php:696
 msgid "Number Count"
 msgstr ""
 
@@ -4578,10 +4585,6 @@ msgstr ""
 #: inc/elements/modules/working-process/widgets/working-process.php:113
 #: inc/elements/modules/blog-section/widgets/blog-section.php:79
 msgid "Number of Column"
-msgstr ""
-
-#: inc/elements/modules/blog-section/widgets/blog-section.php:131
-msgid "Number of Posts"
 msgstr ""
 
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:193
@@ -4601,16 +4604,16 @@ msgstr ""
 msgid "Number(%)"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:879
+#: inc/elements/modules/working-process/widgets/working-process.php:870
 msgid "Object Fit"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:900
+#: inc/elements/modules/working-process/widgets/working-process.php:891
 msgid "Object Position"
 msgstr ""
 
 #: inc/customizer/customizer.php:54
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1437
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1441
 msgid "Off"
 msgstr ""
 
@@ -4625,7 +4628,7 @@ msgid "Office Location"
 msgstr ""
 
 #: inc/customizer/customizer.php:53
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1436
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1440
 msgid "On"
 msgstr ""
 
@@ -4634,7 +4637,7 @@ msgstr ""
 msgid "On clicking the video play button, the video will show in popup."
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:261
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:276
 msgid "On/Off Date, Author & Comment"
 msgstr ""
 
@@ -4651,8 +4654,8 @@ msgstr ""
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:977
-#: inc/elements/modules/working-process/widgets/working-process.php:1008
+#: inc/elements/modules/working-process/widgets/working-process.php:968
+#: inc/elements/modules/working-process/widgets/working-process.php:999
 #: inc/elements/modules/featured-block/widgets/featured-block.php:649
 #: inc/elements/modules/featured-block/widgets/featured-block.php:680
 msgid "Opacity"
@@ -4730,8 +4733,8 @@ msgid "Overlay BG Color"
 msgstr ""
 
 #: inc/customizer/customizer-panel/footer.php:113
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1468
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1522
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1472
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1526
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:1055
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:1110
 #: inc/elements/modules/team-block/widgets/team-block.php:813
@@ -4751,16 +4754,16 @@ msgid ""
 "Customizer %s"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:410
+#: inc/elements/modules/working-process/widgets/working-process.php:401
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:90
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:264
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:447
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:235
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:247
-#: inc/elements/modules/service-block/widgets/service-block.php:466
+#: inc/elements/modules/service-block/widgets/service-block.php:448
 #: inc/elements/modules/team-block/widgets/team-block.php:331
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:223
-#: inc/elements/modules/blog-section/widgets/blog-section.php:300
+#: inc/elements/modules/blog-section/widgets/blog-section.php:298
 #: inc/elements/modules/featured-block/widgets/featured-block.php:195
 msgid "p"
 msgstr ""
@@ -4774,12 +4777,12 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:682
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1089
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1347
-#: inc/elements/modules/working-process/widgets/working-process.php:469
-#: inc/elements/modules/working-process/widgets/working-process.php:610
-#: inc/elements/modules/working-process/widgets/working-process.php:693
-#: inc/elements/modules/working-process/widgets/working-process.php:1173
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:507
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1008
+#: inc/elements/modules/working-process/widgets/working-process.php:460
+#: inc/elements/modules/working-process/widgets/working-process.php:601
+#: inc/elements/modules/working-process/widgets/working-process.php:684
+#: inc/elements/modules/working-process/widgets/working-process.php:1164
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:511
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1012
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:597
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:884
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:244
@@ -4789,8 +4792,8 @@ msgstr ""
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:723
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:400
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:518
-#: inc/elements/modules/service-block/widgets/service-block.php:616
-#: inc/elements/modules/service-block/widgets/service-block.php:852
+#: inc/elements/modules/service-block/widgets/service-block.php:598
+#: inc/elements/modules/service-block/widgets/service-block.php:834
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:841
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:841
 #: inc/elements/modules/team-block/widgets/team-block.php:523
@@ -4799,8 +4802,8 @@ msgstr ""
 #: inc/elements/modules/contact-section/widgets/contact-section.php:309
 #: inc/elements/modules/contact-section/widgets/contact-section.php:417
 #: inc/elements/modules/contact-section/widgets/contact-section.php:542
-#: inc/elements/modules/blog-section/widgets/blog-section.php:526
-#: inc/elements/modules/blog-section/widgets/blog-section.php:855
+#: inc/elements/modules/blog-section/widgets/blog-section.php:524
+#: inc/elements/modules/blog-section/widgets/blog-section.php:853
 #: inc/elements/modules/featured-block/widgets/featured-block.php:474
 #: inc/elements/modules/featured-block/widgets/featured-block.php:736
 #: inc/elements/modules/featured-block/widgets/featured-block.php:989
@@ -5065,13 +5068,13 @@ msgstr ""
 #: inc/elements/modules/counter-block/widgets/counter-block.php:345
 #: inc/elements/modules/image-flipster/widgets/image-flipster.php:141
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:77
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:396
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:400
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:431
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:469
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:627
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:270
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:308
-#: inc/elements/modules/service-block/widgets/service-block.php:494
+#: inc/elements/modules/service-block/widgets/service-block.php:476
 #: inc/elements/modules/team-block/widgets/team-block.php:380
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:337
 #: inc/elements/modules/featured-block/widgets/featured-block.php:303
@@ -5082,8 +5085,8 @@ msgstr ""
 msgid "Post Comments"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:200
-#: inc/elements/modules/blog-section/widgets/blog-section.php:793
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:201
+#: inc/elements/modules/blog-section/widgets/blog-section.php:791
 msgid "Post Date"
 msgstr ""
 
@@ -5106,11 +5109,11 @@ msgstr ""
 msgid "Post Meta Date"
 msgstr ""
 
-#: inc/elements/modules/blog-section/widgets/blog-section.php:685
+#: inc/elements/modules/blog-section/widgets/blog-section.php:683
 msgid "Post Metas (Author, Comment)"
 msgstr ""
 
-#: inc/elements/modules/blog-section/widgets/blog-section.php:214
+#: inc/elements/modules/blog-section/widgets/blog-section.php:212
 msgid "Post Reading Time"
 msgstr ""
 
@@ -5146,11 +5149,11 @@ msgstr ""
 
 #: functions.php:409 functions.php:550
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1381
-#: inc/elements/modules/working-process/widgets/working-process.php:1207
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1042
+#: inc/elements/modules/working-process/widgets/working-process.php:1198
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1046
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:552
-#: inc/elements/modules/service-block/widgets/service-block.php:886
-#: inc/elements/modules/blog-section/widgets/blog-section.php:889
+#: inc/elements/modules/service-block/widgets/service-block.php:868
+#: inc/elements/modules/blog-section/widgets/blog-section.php:887
 #: inc/elements/modules/featured-block/widgets/featured-block.php:1023
 msgid "Primary Button"
 msgstr ""
@@ -5243,8 +5246,8 @@ msgstr ""
 #: inc/elements/modules/counter-block/widgets/counter-block.php:571
 #: inc/elements/modules/slider-block/widgets/slider-block.php:442
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1100
-#: inc/elements/modules/working-process/widgets/working-process.php:480
-#: inc/elements/modules/working-process/widgets/working-process.php:622
+#: inc/elements/modules/working-process/widgets/working-process.php:471
+#: inc/elements/modules/working-process/widgets/working-process.php:613
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:610
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:896
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:255
@@ -5252,11 +5255,11 @@ msgstr ""
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:449
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:735
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:412
-#: inc/elements/modules/service-block/widgets/service-block.php:631
+#: inc/elements/modules/service-block/widgets/service-block.php:613
 #: inc/elements/modules/team-block/widgets/team-block.php:539
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:664
 #: inc/elements/modules/contact-section/widgets/contact-section.php:553
-#: inc/elements/modules/blog-section/widgets/blog-section.php:537
+#: inc/elements/modules/blog-section/widgets/blog-section.php:535
 #: inc/elements/modules/featured-block/widgets/featured-block.php:485
 #: inc/elements/modules/featured-block/widgets/featured-block.php:747
 msgid "Radius"
@@ -5287,7 +5290,7 @@ msgstr ""
 msgid "Rating Star"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1359
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1363
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:727
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:960
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:727
@@ -5318,24 +5321,24 @@ msgstr ""
 #: patterns/feature-service-three.php:119 patterns/service-one.php:61
 #: patterns/service-one.php:84 patterns/service-one.php:107
 #: inc/customizer/customizer-panel/blog.php:111
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:241
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:256
 #: inc/elements/modules/working-process/widgets/working-process.php:350
-#: inc/elements/modules/working-process/widgets/working-process.php:362
-#: inc/elements/modules/working-process/widgets/working-process.php:374
+#: inc/elements/modules/working-process/widgets/working-process.php:359
+#: inc/elements/modules/working-process/widgets/working-process.php:368
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:170
 #: inc/elements/modules/service-block/widgets/service-block.php:235
 #: inc/elements/modules/service-block/widgets/service-block.php:325
-#: inc/elements/modules/service-block/widgets/service-block.php:341
-#: inc/elements/modules/service-block/widgets/service-block.php:357
-#: inc/elements/modules/service-block/widgets/service-block.php:373
-#: inc/elements/modules/service-block/widgets/service-block.php:389
-#: inc/elements/modules/service-block/widgets/service-block.php:405
-#: inc/elements/modules/blog-section/widgets/blog-section.php:228
+#: inc/elements/modules/service-block/widgets/service-block.php:338
+#: inc/elements/modules/service-block/widgets/service-block.php:351
+#: inc/elements/modules/service-block/widgets/service-block.php:364
+#: inc/elements/modules/service-block/widgets/service-block.php:377
+#: inc/elements/modules/service-block/widgets/service-block.php:390
+#: inc/elements/modules/blog-section/widgets/blog-section.php:226
 #: inc/elements/modules/featured-block/widgets/featured-block.php:216
 msgid "Read More"
 msgstr ""
 
-#: inc/elements/modules/blog-section/widgets/blog-section.php:226
+#: inc/elements/modules/blog-section/widgets/blog-section.php:224
 msgid "Read More (Button Text)"
 msgstr ""
 
@@ -5348,7 +5351,7 @@ msgid "Read our travel blog"
 msgstr ""
 
 #: inc/customizer/customizer-panel/blog.php:183
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:230
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:231
 msgid "Reading Time"
 msgstr ""
 
@@ -5378,15 +5381,15 @@ msgstr ""
 msgid "Remove footer credit text"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:382
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1228
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:386
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1232
 msgid "Ribbon"
 msgstr ""
 
 #: inc/customizer/customizer-panel/blog.php:101
 #: inc/customizer/customizer-panel/blog.php:219
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:106
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:158
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:107
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:159
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:105
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:192
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:102
@@ -5416,10 +5419,10 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:873
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1123
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1183
-#: inc/elements/modules/working-process/widgets/working-process.php:774
+#: inc/elements/modules/working-process/widgets/working-process.php:765
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:90
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:404
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:469
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:408
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:473
 #: inc/elements/modules/heading/widgets/heading.php:101
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:444
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:561
@@ -5430,8 +5433,8 @@ msgstr ""
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:283
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:400
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:301
-#: inc/elements/modules/service-block/widgets/service-block.php:503
-#: inc/elements/modules/service-block/widgets/service-block.php:602
+#: inc/elements/modules/service-block/widgets/service-block.php:485
+#: inc/elements/modules/service-block/widgets/service-block.php:584
 #: inc/elements/modules/video-popup/widgets/video-popup.php:263
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:798
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:798
@@ -5439,7 +5442,7 @@ msgstr ""
 #: inc/elements/modules/team-block/widgets/team-block.php:487
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:375
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:420
-#: inc/elements/modules/blog-section/widgets/blog-section.php:430
+#: inc/elements/modules/blog-section/widgets/blog-section.php:428
 #: inc/elements/modules/featured-block/widgets/featured-block.php:315
 #: inc/elements/modules/featured-block/widgets/featured-block.php:437
 msgid "Right"
@@ -5469,7 +5472,7 @@ msgstr ""
 msgid "Roma De Suzat"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:730
+#: inc/elements/modules/working-process/widgets/working-process.php:721
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:942
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:781
 msgid "Rotate"
@@ -5480,7 +5483,7 @@ msgstr ""
 msgid "Row Height"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:889
+#: inc/elements/modules/working-process/widgets/working-process.php:880
 msgid "Scale Down"
 msgstr ""
 
@@ -5525,7 +5528,7 @@ msgstr ""
 
 #: functions.php:466 functions.php:598
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1474
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1135
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1139
 msgid "Secondary Button"
 msgstr ""
 
@@ -5544,7 +5547,7 @@ msgstr ""
 msgid "Section"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:121
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:122
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:120
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:117
 #: inc/customizer/customizer-panel/home/home-services-settings.php:119
@@ -5560,7 +5563,7 @@ msgstr ""
 msgid "Select background options ( color / gradient / image )"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:146
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:147
 msgid "Select Categories"
 msgstr ""
 
@@ -5640,7 +5643,7 @@ msgid ""
 msgstr ""
 
 #: inc/elements/modules/slider-block/widgets/slider-block.php:992
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1434
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1438
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:1013
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:1013
 msgid "Sequenced Animation"
@@ -5674,7 +5677,7 @@ msgstr ""
 msgid "Service Items"
 msgstr ""
 
-#: inc/elements/modules/service-block/widgets/service-block.php:475
+#: inc/elements/modules/service-block/widgets/service-block.php:457
 msgid "Service Style"
 msgstr ""
 
@@ -5698,19 +5701,19 @@ msgstr ""
 
 #: inc/customizer/customizer-panel/footer.php:18
 #: inc/customizer/customizer-panel/quick-info.php:19
-#: inc/elements/modules/working-process/widgets/working-process.php:391
+#: inc/elements/modules/working-process/widgets/working-process.php:382
 #: inc/elements/modules/heading/widgets/heading.php:114
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:167
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:245
 #: inc/elements/modules/logo-carousel/widgets/logo-carousel.php:306
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:427
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:216
-#: inc/elements/modules/service-block/widgets/service-block.php:446
+#: inc/elements/modules/service-block/widgets/service-block.php:428
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:80
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:80
 #: inc/elements/modules/team-block/widgets/team-block.php:311
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:204
-#: inc/elements/modules/blog-section/widgets/blog-section.php:281
+#: inc/elements/modules/blog-section/widgets/blog-section.php:279
 msgid "Settings"
 msgstr ""
 
@@ -5813,7 +5816,7 @@ msgstr ""
 
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1628
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1733
-#: inc/elements/modules/working-process/widgets/working-process.php:666
+#: inc/elements/modules/working-process/widgets/working-process.php:657
 msgid "Size"
 msgstr ""
 
@@ -5821,7 +5824,7 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:175
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:176
 #: inc/customizer/customizer-panel/home/home-team-settings.php:349
 #: inc/customizer/customizer-panel/home/home-slider-settings.php:368
 #: inc/customizer/customizer-panel/home/home-testimonial-settings.php:273
@@ -5961,10 +5964,10 @@ msgctxt "Space size name"
 msgid "XX-Large"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:446
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:570
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:825
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:861
+#: inc/elements/modules/working-process/widgets/working-process.php:437
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:574
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:829
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:865
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:156
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:428
 #: inc/elements/modules/logo-carousel/widgets/logo-carousel.php:195
@@ -5972,7 +5975,7 @@ msgstr ""
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:889
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:211
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:889
-#: inc/elements/modules/blog-section/widgets/blog-section.php:763
+#: inc/elements/modules/blog-section/widgets/blog-section.php:761
 msgid "Spacing"
 msgstr ""
 
@@ -5984,7 +5987,7 @@ msgstr ""
 msgid "Spacing Testimonial Item"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:409
+#: inc/elements/modules/working-process/widgets/working-process.php:400
 #: inc/elements/modules/heading/widgets/heading.php:131
 #: inc/elements/modules/heading/widgets/heading.php:150
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:89
@@ -5992,10 +5995,10 @@ msgstr ""
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:446
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:234
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:246
-#: inc/elements/modules/service-block/widgets/service-block.php:465
+#: inc/elements/modules/service-block/widgets/service-block.php:447
 #: inc/elements/modules/team-block/widgets/team-block.php:330
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:222
-#: inc/elements/modules/blog-section/widgets/blog-section.php:299
+#: inc/elements/modules/blog-section/widgets/blog-section.php:297
 #: inc/elements/modules/featured-block/widgets/featured-block.php:194
 msgid "span"
 msgstr ""
@@ -6050,7 +6053,7 @@ msgstr ""
 
 #: inc/elements/modules/working-process/widgets/working-process.php:179
 #: inc/elements/modules/contact-section/widgets/contact-section.php:196
-#: inc/elements/modules/blog-section/widgets/blog-section.php:337
+#: inc/elements/modules/blog-section/widgets/blog-section.php:335
 msgid "Start"
 msgstr ""
 
@@ -6110,7 +6113,7 @@ msgstr ""
 #: inc/customizer/customizer-panel/footer.php:25
 #: inc/customizer/customizer-panel/quick-info.php:26
 #: inc/customizer/customizer-panel/header-cta.php:46
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:57
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:58
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:57
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:53
 #: inc/customizer/customizer-panel/home/home-contact-settings.php:55
@@ -6130,7 +6133,7 @@ msgid "Style"
 msgstr ""
 
 #: inc/customizer/customizer-panel/header-cta.php:64
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:133
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:134
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:133
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:129
 #: inc/customizer/customizer-panel/home/home-services-settings.php:131
@@ -6157,7 +6160,7 @@ msgid "Style 1 (One)"
 msgstr ""
 
 #: inc/customizer/customizer-panel/header-cta.php:65
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:134
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:135
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:134
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:130
 #: inc/customizer/customizer-panel/home/home-services-settings.php:132
@@ -6171,6 +6174,7 @@ msgstr ""
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:73
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:73
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:72
+#: inc/elements/modules/highlight-block/widgets/highlight-block.php:72
 #: inc/elements/modules/service-block/widgets/service-block.php:74
 #: inc/elements/modules/team-block/widgets/team-block.php:72
 #: inc/elements/modules/blog-section/widgets/blog-section.php:72
@@ -6182,7 +6186,7 @@ msgstr ""
 msgid "Style 2 (Two)"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:135
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:136
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:135
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:131
 #: inc/customizer/customizer-panel/home/home-services-settings.php:133
@@ -6195,7 +6199,6 @@ msgstr ""
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:74
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:74
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:73
-#: inc/elements/modules/highlight-block/widgets/highlight-block.php:72
 #: inc/elements/modules/team-block/widgets/team-block.php:73
 msgid "Style 3"
 msgstr ""
@@ -6256,7 +6259,7 @@ msgstr ""
 msgid "Super Slider Title"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:80
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:81
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:81
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:76
 #: inc/customizer/customizer-panel/home/home-services-settings.php:77
@@ -6470,20 +6473,20 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1529
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1794
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1831
-#: inc/elements/modules/working-process/widgets/working-process.php:1222
-#: inc/elements/modules/working-process/widgets/working-process.php:1262
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1057
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1097
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1150
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1190
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1249
+#: inc/elements/modules/working-process/widgets/working-process.php:1213
+#: inc/elements/modules/working-process/widgets/working-process.php:1253
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1061
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1101
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1154
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1194
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1253
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:567
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:608
-#: inc/elements/modules/service-block/widgets/service-block.php:901
-#: inc/elements/modules/service-block/widgets/service-block.php:941
+#: inc/elements/modules/service-block/widgets/service-block.php:883
+#: inc/elements/modules/service-block/widgets/service-block.php:923
 #: inc/elements/modules/contact-section/widgets/contact-section.php:439
-#: inc/elements/modules/blog-section/widgets/blog-section.php:904
-#: inc/elements/modules/blog-section/widgets/blog-section.php:944
+#: inc/elements/modules/blog-section/widgets/blog-section.php:902
+#: inc/elements/modules/blog-section/widgets/blog-section.php:942
 #: inc/elements/modules/featured-block/widgets/featured-block.php:1038
 #: inc/elements/modules/featured-block/widgets/featured-block.php:1078
 msgid "Text Color"
@@ -6619,7 +6622,7 @@ msgstr ""
 
 #: inc/customizer/customizer-panel/blog.php:236
 #: inc/customizer/customizer-panel/header-cta.php:89
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:90
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:91
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:91
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:162
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:86
@@ -6644,10 +6647,10 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:99
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1246
 #: inc/elements/modules/working-process/widgets/working-process.php:252
-#: inc/elements/modules/working-process/widgets/working-process.php:1039
+#: inc/elements/modules/working-process/widgets/working-process.php:1030
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:199
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:388
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:799
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:392
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:803
 #: inc/elements/modules/heading/widgets/heading.php:80
 #: inc/elements/modules/heading/widgets/heading.php:220
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:69
@@ -6657,7 +6660,7 @@ msgstr ""
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:146
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:426
 #: inc/elements/modules/service-block/widgets/service-block.php:212
-#: inc/elements/modules/service-block/widgets/service-block.php:759
+#: inc/elements/modules/service-block/widgets/service-block.php:741
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:108
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:436
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:441
@@ -6669,14 +6672,14 @@ msgstr ""
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:456
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:855
 #: inc/elements/modules/team-block/widgets/team-block.php:231
-#: inc/elements/modules/blog-section/widgets/blog-section.php:558
+#: inc/elements/modules/blog-section/widgets/blog-section.php:556
 #: inc/elements/modules/featured-block/widgets/featured-block.php:173
 #: inc/elements/modules/featured-block/widgets/featured-block.php:862
 msgid "Title"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:906
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:954
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:910
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:958
 #: inc/elements/modules/contact-section/widgets/contact-section.php:337
 msgid "Title Color"
 msgstr ""
@@ -6688,7 +6691,7 @@ msgstr ""
 
 #: inc/elements/modules/counter-block/widgets/counter-block.php:168
 #: inc/elements/modules/slider-block/widgets/slider-block.php:713
-#: inc/elements/modules/working-process/widgets/working-process.php:398
+#: inc/elements/modules/working-process/widgets/working-process.php:389
 #: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:210
 #: inc/elements/modules/heading/widgets/heading.php:139
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:78
@@ -6696,10 +6699,10 @@ msgstr ""
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:434
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:222
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:234
-#: inc/elements/modules/service-block/widgets/service-block.php:453
+#: inc/elements/modules/service-block/widgets/service-block.php:435
 #: inc/elements/modules/team-block/widgets/team-block.php:318
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:210
-#: inc/elements/modules/blog-section/widgets/blog-section.php:287
+#: inc/elements/modules/blog-section/widgets/blog-section.php:285
 #: inc/elements/modules/featured-block/widgets/featured-block.php:182
 msgid "Title HTML Tag"
 msgstr ""
@@ -6716,7 +6719,7 @@ msgstr ""
 msgid "Title Typography"
 msgstr ""
 
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:262
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:277
 #: inc/customizer/customizer-panel/home/home-recentwork-settings.php:272
 #: inc/customizer/customizer-panel/home/home-counter-settings.php:258
 #: inc/customizer/customizer-panel/home/home-contact-settings.php:240
@@ -6755,21 +6758,21 @@ msgstr ""
 #: inc/elements/modules/counter-block/widgets/counter-block.php:255
 #: inc/elements/modules/slider-block/widgets/slider-block.php:503
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1145
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:486
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:490
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:496
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:362
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:669
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:335
-#: inc/elements/modules/service-block/widgets/service-block.php:521
+#: inc/elements/modules/service-block/widgets/service-block.php:503
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:815
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:815
 #: inc/elements/modules/team-block/widgets/team-block.php:422
-#: inc/elements/modules/blog-section/widgets/blog-section.php:365
+#: inc/elements/modules/blog-section/widgets/blog-section.php:363
 #: inc/elements/modules/featured-block/widgets/featured-block.php:372
 msgid "Top"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:906
+#: inc/elements/modules/working-process/widgets/working-process.php:897
 msgid "Top Center"
 msgstr ""
 
@@ -6778,7 +6781,7 @@ msgstr ""
 msgid "Top Header"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:907
+#: inc/elements/modules/working-process/widgets/working-process.php:898
 msgid "Top Left"
 msgstr ""
 
@@ -6791,7 +6794,7 @@ msgstr ""
 msgid "Top Menu Nav"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:908
+#: inc/elements/modules/working-process/widgets/working-process.php:899
 msgid "Top Right"
 msgstr ""
 
@@ -6816,10 +6819,10 @@ msgstr ""
 msgid "Transition"
 msgstr ""
 
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1539
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:1543
 #: inc/elements/modules/logo-carousel/widgets/logo-carousel.php:436
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:1127
-#: inc/elements/modules/service-block/widgets/service-block.php:1108
+#: inc/elements/modules/service-block/widgets/service-block.php:1090
 #: inc/elements/modules/team-block/widgets/team-block.php:885
 #: inc/elements/modules/featured-block/widgets/featured-block.php:613
 msgid "Transition Duration"
@@ -6886,9 +6889,9 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1224
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1265
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1305
-#: inc/elements/modules/working-process/widgets/working-process.php:513
-#: inc/elements/modules/working-process/widgets/working-process.php:1059
-#: inc/elements/modules/working-process/widgets/working-process.php:1130
+#: inc/elements/modules/working-process/widgets/working-process.php:504
+#: inc/elements/modules/working-process/widgets/working-process.php:1050
+#: inc/elements/modules/working-process/widgets/working-process.php:1121
 #: inc/elements/modules/heading/widgets/heading.php:199
 #: inc/elements/modules/heading/widgets/heading.php:239
 #: inc/elements/modules/progress-bar/widgets/progress-bar.php:319
@@ -6903,9 +6906,9 @@ msgstr ""
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:588
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:446
 #: inc/elements/modules/highlight-block/widgets/highlight-block.php:488
-#: inc/elements/modules/service-block/widgets/service-block.php:736
-#: inc/elements/modules/service-block/widgets/service-block.php:779
-#: inc/elements/modules/service-block/widgets/service-block.php:821
+#: inc/elements/modules/service-block/widgets/service-block.php:718
+#: inc/elements/modules/service-block/widgets/service-block.php:761
+#: inc/elements/modules/service-block/widgets/service-block.php:803
 #: inc/elements/modules/team-block/widgets/team-block.php:584
 #: inc/elements/modules/team-block/widgets/team-block.php:638
 #: inc/elements/modules/team-block/widgets/team-block.php:695
@@ -6914,10 +6917,10 @@ msgstr ""
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:567
 #: inc/elements/modules/contact-section/widgets/contact-section.php:503
 #: inc/elements/modules/contact-section/widgets/contact-section.php:535
-#: inc/elements/modules/blog-section/widgets/blog-section.php:566
-#: inc/elements/modules/blog-section/widgets/blog-section.php:664
-#: inc/elements/modules/blog-section/widgets/blog-section.php:744
-#: inc/elements/modules/blog-section/widgets/blog-section.php:802
+#: inc/elements/modules/blog-section/widgets/blog-section.php:564
+#: inc/elements/modules/blog-section/widgets/blog-section.php:662
+#: inc/elements/modules/blog-section/widgets/blog-section.php:742
+#: inc/elements/modules/blog-section/widgets/blog-section.php:800
 #: inc/elements/modules/featured-block/widgets/featured-block.php:882
 #: inc/elements/modules/featured-block/widgets/featured-block.php:936
 msgid "Typography"
@@ -6948,7 +6951,7 @@ msgstr ""
 msgid "Unlock all the possibilities with %1$s Pro"
 msgstr ""
 
-#: inc/welcome/sections/footer.php:6
+#: inc/welcome/sections/footer.php:8
 msgid "Upgrade Now"
 msgstr ""
 
@@ -7013,16 +7016,16 @@ msgstr ""
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:492
 #: inc/elements/modules/team-carousel/widgets/team-carousel.php:665
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:331
-#: inc/elements/modules/service-block/widgets/service-block.php:517
+#: inc/elements/modules/service-block/widgets/service-block.php:499
 #: inc/elements/modules/team-block/widgets/team-block.php:418
-#: inc/elements/modules/blog-section/widgets/blog-section.php:361
+#: inc/elements/modules/blog-section/widgets/blog-section.php:359
 #: inc/elements/modules/featured-block/widgets/featured-block.php:368
 msgid "Vertical Alignment"
 msgstr ""
 
 #: inc/elements/modules/slider-block/widgets/slider-block.php:499
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1141
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:482
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:486
 #: inc/elements/modules/advance-gallery/widgets/advance-gallery.php:358
 #: inc/elements/modules/portfolio-gallery/widgets/portfolio-gallery.php:811
 #: inc/elements/modules/portfolio-gallery/widgets/gallery.php:811
@@ -7224,9 +7227,9 @@ msgstr ""
 #: inc/customizer/customizer-panel/home/home-cta-settings.php:105
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1588
 #: inc/elements/modules/slider-block/widgets/slider-block.php:1693
-#: inc/elements/modules/working-process/widgets/working-process.php:558
-#: inc/elements/modules/working-process/widgets/working-process.php:788
-#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:583
+#: inc/elements/modules/working-process/widgets/working-process.php:549
+#: inc/elements/modules/working-process/widgets/working-process.php:779
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:587
 #: inc/elements/modules/testimonial-carousel/widgets/testimonial-carousel.php:823
 #: inc/elements/modules/testimonial-block/widgets/testimonial-block.php:662
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:595
@@ -7260,6 +7263,7 @@ msgstr ""
 #: inc/elements/modules/slider-block/widgets/slider-block.php:121
 #: inc/elements/modules/slider-block/widgets/slider-block.php:619
 #: inc/elements/modules/slider-block/widgets/slider-block.php:630
+#: inc/elements/modules/call-to-action-block/widgets/call-to-action-block.php:268
 msgid "WordPress Themes"
 msgstr ""
 
@@ -7284,11 +7288,11 @@ msgstr ""
 msgid "Working Process Item 1"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:360
+#: inc/elements/modules/working-process/widgets/working-process.php:357
 msgid "Working Process Item 2"
 msgstr ""
 
-#: inc/elements/modules/working-process/widgets/working-process.php:372
+#: inc/elements/modules/working-process/widgets/working-process.php:366
 msgid "Working Process Item 3"
 msgstr ""
 
@@ -7340,9 +7344,9 @@ msgstr ""
 #: inc/customizer/customizer-panel/quick-info.php:85
 #: inc/customizer/customizer-panel/header-cta.php:18
 #: inc/welcome/sections/free_vs_pro.php:202
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:204
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:219
-#: inc/customizer/customizer-panel/home/home-blog-settings.php:234
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:205
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:220
+#: inc/customizer/customizer-panel/home/home-blog-settings.php:235
 #: inc/customizer/customizer-panel/home/home-contact-settings.php:99
 #: inc/customizer/customizer-panel/home/home-contact-settings.php:151
 #: inc/customizer/customizer-panel/home/home-slider-settings.php:57
@@ -7378,10 +7382,10 @@ msgstr ""
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:266
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:307
 #: inc/elements/modules/testimonial-slider/widgets/testimonial-slider.php:318
-#: inc/elements/modules/blog-section/widgets/blog-section.php:182
-#: inc/elements/modules/blog-section/widgets/blog-section.php:194
-#: inc/elements/modules/blog-section/widgets/blog-section.php:205
-#: inc/elements/modules/blog-section/widgets/blog-section.php:216
+#: inc/elements/modules/blog-section/widgets/blog-section.php:180
+#: inc/elements/modules/blog-section/widgets/blog-section.php:192
+#: inc/elements/modules/blog-section/widgets/blog-section.php:203
+#: inc/elements/modules/blog-section/widgets/blog-section.php:214
 msgid "Yes"
 msgstr ""
 
@@ -7456,23 +7460,23 @@ msgstr ""
 msgid "Your Service 1 Heading"
 msgstr ""
 
-#: inc/elements/modules/service-block/widgets/service-block.php:339
+#: inc/elements/modules/service-block/widgets/service-block.php:336
 msgid "Your Service 2 Heading"
 msgstr ""
 
-#: inc/elements/modules/service-block/widgets/service-block.php:355
+#: inc/elements/modules/service-block/widgets/service-block.php:349
 msgid "Your Service 3 Heading"
 msgstr ""
 
-#: inc/elements/modules/service-block/widgets/service-block.php:371
+#: inc/elements/modules/service-block/widgets/service-block.php:362
 msgid "Your Service 4 Heading"
 msgstr ""
 
-#: inc/elements/modules/service-block/widgets/service-block.php:387
+#: inc/elements/modules/service-block/widgets/service-block.php:375
 msgid "Your Service 5 Heading"
 msgstr ""
 
-#: inc/elements/modules/service-block/widgets/service-block.php:403
+#: inc/elements/modules/service-block/widgets/service-block.php:388
 msgid "Your Service 6 Heading"
 msgstr ""
 

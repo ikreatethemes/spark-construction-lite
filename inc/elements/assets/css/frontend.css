@@ -80,7 +80,7 @@
     background-color: var(--theme-color);
     color: var(--white-color);
     display: inline-flex;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
     z-index:2;
 }
@@ -100,20 +100,26 @@
 .sparkconstructionlite-button:hover::before{
     width: 100%;
 }
+/* Hover effect for all buttons */
+.sparkconstructionlite-button .elementor-icon .default-icon {
+    transition: transform 0.4s ease;
+}
+.sparkconstructionlite-button:hover .default-icon{
+    transform: rotate(45deg);
+}
 
 .sparkconstructionlite-button .elementor-icon{
     font-size: inherit;
+    color: currentColor;
 }
-.sparkconstructionlite-button .sparkconstructionlite-link-icon svg{
-    vertical-align: middle;
-    fill: var(--white-color);
+/* Ensure SVG also transitions smoothly */
+.sparkconstructionlite-button .elementor-icon i,
+.sparkconstructionlite-button .elementor-icon svg {
+    -webkit-transition: fill ease 0.4s;
+    -o-transition: fill ease 0.4s;
+    transition: fill ease 0.4s;
+    fill: currentColor;
 }
-
-.sparkconstructionlite-button.sparkconstructionlite-button-primary:hover,
-.sparkconstructionlite-button.sparkconstructionlite-button-primary:focus{
-    color: var(--white-color);
-}
-
 .sparkconstructionlite-button.sparkconstructionlite-button-border {
     border: 2px solid var(--link-color);
     background-color: transparent;
@@ -127,26 +133,17 @@
     border: 2px solid var(--theme-color);
     color: var(--white-color);
 }
-.sparkconstructionlite-button.sparkconstructionlite-button-border .sparkconstructionlite-link-icon svg{
-    fill: var(--link-color);
-}
-.sparkconstructionlite-button.sparkconstructionlite-button-border:hover .sparkconstructionlite-link-icon svg{
-    fill: var(--white-color);
-}
-
 .sparkconstructionlite-button.sparkconstructionlite-button-noborder {
     padding: 0;
+    border-radius: 0;
     background-color: transparent;
     color: var(--link-color);
 }
 .sparkconstructionlite-button.sparkconstructionlite-button-noborder::before {
-    background-color: transparent;
+    display: none;
 }
 .sparkconstructionlite-button.sparkconstructionlite-button-noborder:hover {
     color: var(--link-hover-color);
-}
-.sparkconstructionlite-button.sparkconstructionlite-button-noborder .sparkconstructionlite-link-icon svg{
-    fill: var(--link-color);
 }
 .sparkconstructionlite-button.sparkconstructionlite-button-noborder:hover .sparkconstructionlite-link-icon svg{
     fill: var(--theme-color);
@@ -162,9 +159,6 @@
 }
 .sparkconstructionlite-button.style-white::before {
     background-color: var(--theme-color);
-}
-.sparkconstructionlite-button.style-white .sparkconstructionlite-link-icon svg{
-    fill: var(--theme-color);
 }
 .sparkconstructionlite-button.style-white:hover .sparkconstructionlite-link-icon svg{
     fill: var(--white-color);
@@ -470,6 +464,7 @@
     opacity: 0;
     overflow: hidden;
     transform: scale(0.5);
+    pointer-events: none;
 }
 
 

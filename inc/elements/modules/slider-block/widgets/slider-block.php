@@ -145,8 +145,8 @@ class SliderBlock extends Widget_Base {
                             'type' => Controls_Manager::ICONS,
                             'skin' => 'inline',
                             'default' => [
-                                'library' => 'fa-solid',
-                                'value' => 'fas fa-long-arrow-alt-right',
+                                'value' => '',
+                                'library' => '',
                             ],
                             'label_block' => false,
                             'skin_settings' => [
@@ -212,8 +212,8 @@ class SliderBlock extends Widget_Base {
                             'type' => Controls_Manager::ICONS,
                             'skin' => 'inline',
                             'default' => [
-                                'library' => 'fa-solid',
-                                'value' => 'fas fa-long-arrow-alt-right',
+                                'value' => '',
+                                'library' => '',
                             ],
                             'label_block' => false,
                             'skin_settings' => [
@@ -1933,7 +1933,13 @@ class SliderBlock extends Widget_Base {
                                     <<?php Utils::print_validated_html_tag( $button_tag ); ?> <?php $this->print_render_attribute_string( "link_{$index}" ); ?>>
                                         <?php echo esc_html($slide['slider_button_text']); ?>
                                         <span class="sparkconstructionlite-link-icon elementor-icon">
-                                            <?php Icons_Manager::render_icon($slide['first_link_icon'], ['aria-hidden' => 'true']); ?>
+                                            <?php 
+                                                if (!empty($slide['first_link_icon']['value'])) {
+                                                    Icons_Manager::render_icon($slide['first_link_icon'], ['aria-hidden' => 'true']);
+                                                } else {
+                                                    echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                                }
+                                            ?>
                                         </span>
                                     </<?php Utils::print_unescaped_internal_string( $button_tag ); ?>>
 
@@ -1947,7 +1953,13 @@ class SliderBlock extends Widget_Base {
                                     <<?php Utils::print_validated_html_tag( $button_tag ); ?> <?php $this->print_render_attribute_string( "link_one_{$index}" ); ?>>
                                         <?php echo esc_html($slide['slider_button_one_text']); ?>
                                         <span class="sparkconstructionlite-link-icon elementor-icon">
-                                            <?php Icons_Manager::render_icon($slide['second_link_icon'], ['aria-hidden' => 'true']); ?>
+                                            <?php 
+                                                if (!empty($slide['second_link_icon']['value'])) {
+                                                    Icons_Manager::render_icon($slide['second_link_icon'], ['aria-hidden' => 'true']);
+                                                } else {
+                                                    echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                                }
+                                            ?>
                                         </span>
                                     </<?php Utils::print_unescaped_internal_string( $button_tag ); ?>>
 

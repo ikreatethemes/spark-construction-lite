@@ -48,60 +48,70 @@ if( !function_exists('sparkconstructionlite_themes_about_us_content')):
 
                     <?php
                         $more_about_us = get_theme_mod('sparkconstructionlite_more_about_us');
-                        $moreaboutus = json_decode($more_about_us);
-                        if (!empty( $more_about_us ) ): 
+                        if (!empty($more_about_us)) {
+                            $moreaboutus = json_decode($more_about_us);
+                            if (!empty($moreaboutus) && is_array($moreaboutus)) {
+                                $moreaboutus = array_filter($moreaboutus, function($item) {
+                                    return !empty($item->aboutus_title) || !empty($item->aboutus_desc) || !empty($item->aboutus_icon);
+                                });
+                            }
+                            if (!empty($moreaboutus)):
                     ?>
                         <div class="aboutus-service-wrapper">
                             <?php
                                 $loopCount = 0;
                                 foreach ($moreaboutus as $moreabout):
                             ?>
-                                <div class="aboutus-service-item <?php if($loopCount == 0){ echo esc_attr('toggle-active'); } $loopCount+= 1; ?>">
-                                    <?php if( $moreabout->aboutus_icon ): ?>
+                                <div class="aboutus-service-item <?php echo ($loopCount == 0) ? esc_attr('toggle-active') : ''; ?>">
+                                    <?php if(!empty($moreabout->aboutus_icon)): ?>
                                         <div class="aboutus-icon-wrapper">
                                             <div class="aboutus-service-icon">
-                                                <i class="<?php echo esc_attr( $moreabout->aboutus_icon ); ?>"></i>
+                                                <i class="<?php echo esc_attr($moreabout->aboutus_icon); ?>"></i>
                                             </div>
                                         </div>
                                     <?php endif; ?>
+                                    
                                     <div class="aboutus-service-block-wrap">
-                                        <?php if( $moreabout->aboutus_title ): ?>
+                                        <?php if(!empty($moreabout->aboutus_title)): ?>
                                             <h3 class="sparkconstructionlite-item-title">
-                                                <?php echo esc_html( $moreabout->aboutus_title ); ?>
+                                                <?php echo esc_html($moreabout->aboutus_title); ?>
                                             </h3>   
                                         <?php endif; ?>
-
-                                        <?php if( $moreabout->aboutus_desc ): ?>             
+                    
+                                        <?php if(!empty($moreabout->aboutus_desc)): ?>             
                                             <div class="aboutus-inner-service-wrap">
                                                 <div class="sparkconstructionlite-item-description">
-                                                    <?php echo esc_html( $moreabout->aboutus_desc ); ?>
+                                                    <?php echo esc_html($moreabout->aboutus_desc); ?>
                                                 </div>
                                             </div>
                                         <?php endif; ?>           
                                     </div>
                                 </div>
+                                <?php $loopCount++; ?>
                             <?php endforeach; ?>
                         </div>
-                    <?php endif; ?>
+                    <?php endif; } ?>
 
                     <?php
-                        $about_button = get_theme_mod( 'sparkconstructionlite_aboutus_button_text','More About Us' );
-                        $video_link = get_theme_mod( 'sparkconstructionlite_about_video_link');
-                        $readmore_link = get_theme_mod( 'sparkconstructionlite_about_readmore_link');
+                        $about_button = get_theme_mod( 'sparkconstructionlite_aboutus_button_text', 'More About Us' );
+                        $video_link = get_theme_mod( 'sparkconstructionlite_about_video_link' );
+                        $readmore_link = get_theme_mod( 'sparkconstructionlite_about_readmore_link' );
                     ?>
-                    <div class="about-button-wrap">
-                        <?php if ( !empty( $about_button ) && !empty( $readmore_link ) ) { ?>
-                            <a href="<?php echo esc_url( $readmore_link ); ?>" class="btn btn-primary">
-                                <?php echo esc_html( $about_button ); ?>
-                            </a>
-                        <?php } ?>
+                    <?php if ( ( ! empty( $about_button ) && ! empty( $readmore_link ) ) || ! empty( $video_link ) ) { ?>
+                        <div class="about-button-wrap">
+                            <?php if ( ! empty( $about_button ) && ! empty( $readmore_link ) ) { ?>
+                                <a href="<?php echo esc_url( $readmore_link ); ?>" class="btn btn-primary">
+                                    <?php echo esc_html( $about_button ); ?>
+                                </a>
+                            <?php } ?>
 
-                        <?php if ( !empty( $video_link ) ) { ?>
-                            <a href="<?php echo esc_url( $video_link ); ?>" rel="prettyVideo[iframe]" target="_blank" class="about-video-link box-shadow-ripples">
-                                <i class="fas fa-play "></i>
-                            </a>
-                        <?php } ?>
-                    </div>
+                            <?php if ( ! empty( $video_link ) ) { ?>
+                                <a href="<?php echo esc_url( $video_link ); ?>" rel="prettyVideo[iframe]" target="_blank" class="about-video-link box-shadow-ripples">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            <?php } ?>
+                        </div>
+                    <?php } ?>
                         
                     <?php 
                         $signature = get_theme_mod('sparkconstructionlite_aboutus_signature');

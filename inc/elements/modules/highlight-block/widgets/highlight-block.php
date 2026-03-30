@@ -69,7 +69,7 @@ class HighlightBlock extends Widget_Base {
                     'default' => 'style1',
                     'options' => [
                         'style1' => esc_html__('Style 1', 'spark-construction-lite'),
-                        'style3' => esc_html__('Style 3', 'spark-construction-lite'),
+                        'style3' => esc_html__('Style 2', 'spark-construction-lite'),
                     ],
                 ]
             );
@@ -192,8 +192,8 @@ class HighlightBlock extends Widget_Base {
                     'skin' => 'inline',
                     'label_block' => false,
                     'default' => [
-                        'library' => 'fa-solid',
-                        'value' => 'fas fa-long-arrow-alt-right',
+                        'library' => '',
+                        'value' => '',
                     ],
                     'skin_settings' => [
                         'inline' => [
@@ -721,11 +721,15 @@ class HighlightBlock extends Widget_Base {
                             <div <?php $this->print_render_attribute_string( 'button_wrap' ); ?>>
                                 <<?php Utils::print_validated_html_tag( $button_tag ); ?> <?php $this->print_render_attribute_string( "button" ); ?>>
                                     <?php echo esc_html($settings['link_text']); ?>
-                                    <?php if (!empty( $settings['link_icon']['value'] ) ) : ?>
-                                        <span class="sparkconstructionlite-link-icon elementor-icon">
-                                            <?php Icons_Manager::render_icon($settings['link_icon'], ['aria-hidden' => 'true']); ?>
-                                        </span>
-                                    <?php endif; ?>
+                                    <span class="sparkconstructionlite-link-icon elementor-icon">
+                                        <?php 
+                                            if (!empty($settings['link_icon']['value'])) {
+                                                Icons_Manager::render_icon($settings['link_icon'], ['aria-hidden' => 'true']);
+                                            } else {
+                                                echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                            }
+                                        ?>
+                                    </span>
                                 </<?php Utils::print_unescaped_internal_string( $button_tag ); ?>>
                             </div>
                         <?php } ?>

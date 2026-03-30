@@ -265,7 +265,7 @@ class CallToActionBlock extends Widget_Base {
                     'label' => esc_html__( 'Button Text', 'spark-construction-lite' ),
                     'type' => Controls_Manager::TEXT,
                     'label_block' => true,
-                    'default' => esc_html__( 'Click Here', 'spark-construction-lite' ),
+                    'default' => esc_html__( 'WordPress Themes', 'spark-construction-lite' ),
                     'separator' => 'before',
                 ]
             );
@@ -288,8 +288,8 @@ class CallToActionBlock extends Widget_Base {
                     'type' => Controls_Manager::ICONS,
                     'skin' => 'inline',
                     'default' => [
-                        'library' => 'fa-solid',
-                        'value' => 'fas fa-long-arrow-alt-right',
+                        'library' => '',
+                        'value' => '',
                     ],
                     'label_block' => false,
                     'skin_settings' => [
@@ -327,7 +327,7 @@ class CallToActionBlock extends Widget_Base {
                     'label' => esc_html__( 'Second Button Text', 'spark-construction-lite' ),
                     'type' => Controls_Manager::TEXT,
                     'label_block' => true,
-                    'default' => '',
+                    'default' => esc_html__( 'Buy Themes', 'spark-construction-lite' ),
                     'separator' => 'before',
                 ]
             );
@@ -344,6 +344,10 @@ class CallToActionBlock extends Widget_Base {
                     'label' => esc_html__( 'Second Button Icon', 'spark-construction-lite' ),
                     'type' => Controls_Manager::ICONS,
                     'skin' => 'inline',
+                    'default' => [
+                        'library' => '',
+                        'value' => '',
+                    ],
                     'label_block' => false,
                     'skin_settings' => [
                         'inline' => [
@@ -1690,7 +1694,13 @@ class CallToActionBlock extends Widget_Base {
                                 <<?php Utils::print_validated_html_tag( $button_tag ); ?> <?php $this->print_render_attribute_string( 'button' ); ?>>
                                     <?php $this->print_unescaped_setting( 'button' ); ?>
                                     <span class="sparkconstructionlite-link-icon elementor-icon">
-                                        <?php Icons_Manager::render_icon($settings['button_icon'], ['aria-hidden' => 'true']); ?>
+                                        <?php 
+                                            if (!empty($settings['button_icon']['value'])) {
+                                                Icons_Manager::render_icon($settings['button_icon'], ['aria-hidden' => 'true']);
+                                            } else {
+                                                echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                            }
+                                        ?>
                                     </span>
                                 </<?php Utils::print_unescaped_internal_string( $button_tag ); ?>>
                             </div>
@@ -1701,7 +1711,13 @@ class CallToActionBlock extends Widget_Base {
                                 <<?php Utils::print_validated_html_tag( $button_tag ); ?> <?php $this->print_render_attribute_string( 'button_one' ); ?>>
                                     <?php $this->print_unescaped_setting( 'button_one' ); ?>
                                     <span class="sparkconstructionlite-link-icon elementor-icon">
-                                        <?php Icons_Manager::render_icon($settings['button_icon_one'], ['aria-hidden' => 'true']); ?>
+                                        <?php 
+                                            if (!empty($settings['button_icon_one']['value'])) {
+                                                Icons_Manager::render_icon($settings['button_icon_one'], ['aria-hidden' => 'true']);
+                                            } else {
+                                                echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                            }
+                                        ?>
                                     </span>
                                 </<?php Utils::print_unescaped_internal_string( $button_tag ); ?>>
                             </div>

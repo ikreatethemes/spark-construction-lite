@@ -768,18 +768,16 @@ if ( ! function_exists( 'sparkconstructionlite_themes_banner_slider' ) ) :
 							if ( $slider_page->have_posts() ) {
 								while ( $slider_page->have_posts() ) {
 									$slider_page->the_post();
-									$slide_item = '';
 									?>
 									<div class="sparkconstructionlite-slider-item-wrap">
+										<div class="sparkconstructionlite-banner-item-bg sparkconstructionlite-ken-burns sparkconstructionlite-ken-burns--in" style="background-image: url(<?php echo esc_url( get_the_post_thumbnail_url() ); ?>)" data-img-url="<?php echo esc_url( get_the_post_thumbnail_url() ); ?>" role="img"></div>
 										<?php
-										if ( ! empty( $bg_overlay_color ) ) {
-											$slide_item = '<div class="sparkconstructionlite-banner-bg-overlay"></div>';
-										}
-
-										echo '<div class="sparkconstructionlite-banner-item-bg sparkconstructionlite-ken-burns sparkconstructionlite-ken-burns--in" style="background-image: url(' . esc_url( get_the_post_thumbnail_url() ) . ')" data-img-url="' . esc_url( get_the_post_thumbnail_url() ) . '" role="img"></div>' . wp_kses_post( $slide_item );
+											if ( ! empty( $bg_overlay_color ) ) {
+												echo '<div class="sparkconstructionlite-banner-bg-overlay"></div>';
+											}
 										?>
 										<div class="sparkconstructionlite-banner-caption-wrap <?php echo esc_attr( $slider->alignment ); ?>" style="justify-content:<?php echo esc_attr( $slider->alignment ); ?>">
-											<div class="sparkconstructionlite-banner-caption">
+										<div class="sparkconstructionlite-banner-caption">
 												<?php if ( ! empty( $slider->subtitile ) ) : ?>
 													<h3 class="sparkconstructionlite-banner-supertitle"><?php echo esc_html( $slider->subtitile ); ?></h3>
 												<?php endif; ?>
@@ -862,12 +860,12 @@ if ( ! function_exists( 'sparkconstructionlite_themes_advance_banner_slider' ) )
 				<div id="sparkconstructionlite-banner" class="<?php echo esc_attr( implode( ' ', $slider_class ) ); ?>" <?php echo wp_kses_data( $data ); ?>>
 					<?php foreach ( $banner_slider as $slider ) { ?>
 						<div class="sparkconstructionlite-slider-item-wrap">
-							<?php
-							if ( ! empty( $bg_overlay_color ) ) {
-								echo '<div class="sparkconstructionlite-banner-bg-overlay"></div>';
-							}
-							?>
 							<div class="sparkconstructionlite-banner-item-bg sparkconstructionlite-ken-burns sparkconstructionlite-ken-burns--in" style="background-image: url(<?php echo esc_url( $slider->block_image ); ?>)" data-img-url="<?php echo esc_url( $slider->block_image ); ?>" role="img"></div>
+							<?php
+								if ( ! empty( $bg_overlay_color ) ) {
+									echo '<div class="sparkconstructionlite-banner-bg-overlay"></div>';
+								}
+							?>
 							<div class="sparkconstructionlite-banner-caption-wrap <?php echo esc_attr( $slider->alignment ); ?>" style="justify-content:<?php echo esc_attr( $slider->alignment ); ?>">
 								<div class="sparkconstructionlite-banner-caption">
 									<?php if ( ! empty( $slider->block_subtitile ) ) : ?>

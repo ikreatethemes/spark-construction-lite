@@ -22,12 +22,10 @@
     $enable_search = get_theme_mod('sparkconstructionlite_enable_search', 'enable');
     if( $enable_search == 'enable' ): 
 ?>
-    <div class="full-search-wrapper" id="full-search-wrapper">
-        <div class="search-close">
-            <div class="close-icon">
-                <i class="far fa-times-circle"></i>
-            </div>
-        </div>
+   <div class="full-search-wrapper" id="full-search-wrapper" aria-hidden="true">
+        <button class="search-close" aria-label="Close search dialog">
+            <i class="far fa-times-circle" aria-hidden="true"></i>
+        </button>
         <div class="search-container">
             <?php get_search_form(); ?>
         </div>

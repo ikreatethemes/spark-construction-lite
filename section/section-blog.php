@@ -54,6 +54,7 @@ if (! function_exists( 'sparkconstructionlite_themes_blog' ) ):
                                 
                                 if ( $blog_query->have_posts() ): while ( $blog_query->have_posts() ) : $blog_query->the_post();
                                 
+                                $blog_excerpt_count = get_theme_mod( 'sparkconstructionlite_blog_excerpt_length', 20 );
                                 $blogreadmore_btn = get_theme_mod( 'sparkconstructionlite_blog_home_btn','Read More');
                                 $alignment = get_theme_mod('sparkconstructionlite_home_blog_alignment', 'text-center');
                                 $date = get_theme_mod( 'sparkconstructionlite_home_post_date_options', 'enable' );
@@ -79,7 +80,7 @@ if (! function_exists( 'sparkconstructionlite_themes_blog' ) ):
                                             if ( 'post' === get_post_type() ){ do_action( 'sparkconstructionlite_themes_home_post_meta', 10 ); } 
                                         ?>
                                         <div class="ikthemes-article-desc">
-                                            <?php echo wp_trim_words( get_the_content(), 20 ); ?>
+                                            <?php echo wp_trim_words( get_the_content(), $blog_excerpt_count ); ?>
                                         </div>
                                         <?php if( !empty( $blogreadmore_btn ) ){ ?>
                                             <div class="ikthemes-article-btn-wrap">

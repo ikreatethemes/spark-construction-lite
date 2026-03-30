@@ -44,6 +44,165 @@ SparkConstructionLite.primaryMenu = {
     }
 }; // SparkConstructionLite.primaryMenu
 
+(function($){
+    // Search Modal Functions
+    SparkConstructionLite.searchModal = {
+        lastFocusedElement: null,
+        currentFocusTrapHandler: null,
+        
+        init: function() {
+            this.bindEvents();
+        },
+        
+        bindEvents: function() {
+            var self = this;
+            
+            // Open search modal
+            $('.menu-item-search a').on('click', function (e) {
+                e.preventDefault();
+                self.openSearchModal($(this));
+            });
+            
+            // Close button click handler
+            $('.full-search-wrapper').on('click', '.close-icon, .search-close', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                self.closeSearchModal();
+            });
+            
+            // Close search on ESC key
+            $(document).on('keydown', function (e) {
+                if (e.key === "Escape" || e.keyCode === 27) {
+                    self.closeSearchModal();
+                }
+            });
+            
+            // Close modal when clicking on backdrop
+            $('.full-search-wrapper').on('click', function(e) {
+                if ($(e.target).hasClass('full-search-wrapper')) {
+                    self.closeSearchModal();
+                }
+            });
+        },
+        
+        openSearchModal: function($clickedLink) {
+            // Store what was focused before opening modal
+            this.lastFocusedElement = $(document.activeElement);
+            
+            var $searchWrapper = $('.full-search-wrapper');
+            var $searchField = $searchWrapper.find('.search-field').first();
+            
+            if ($clickedLink.hasClass('layout_two')) {
+                $clickedLink.parents('.nav-menu').find('.main-menu, .nav-buttons').hide();
+            }
+            
+            // Set ARIA attributes for accessibility
+            $searchWrapper
+                .addClass('search-triggered')
+                .attr('aria-hidden', 'false')
+                .attr('aria-modal', 'true')
+                .attr('role', 'dialog');
+            
+            // Add aria-label to close button if not present
+            $searchWrapper.find('.search-close, .close-icon')
+                .attr('tabindex', '0')
+                .attr('role', 'button')
+                .attr('aria-label', 'Close search dialog');
+            
+            // Make body non-scrollable when modal is open
+            $('body').addClass('modal-open');
+            
+            var self = this;
+            setTimeout(function() {
+                if ($searchWrapper.hasClass('search-triggered')) {
+                    $searchField.focus();
+                    self.currentFocusTrapHandler = self.trapFocus($searchWrapper[0]);
+                }
+            }, 50);
+        },
+        
+        closeSearchModal: function() {
+            var $searchWrapper = $('.full-search-wrapper');
+            
+            if ($searchWrapper.hasClass('search-triggered')) {
+                // Remove focus trap handler if exists
+                if (this.currentFocusTrapHandler) {
+                    this.currentFocusTrapHandler();
+                    this.currentFocusTrapHandler = null;
+                }
+                
+                $searchWrapper
+                    .removeClass('search-triggered')
+                    .attr('aria-hidden', 'true')
+                    .removeAttr('aria-modal')
+                    .removeAttr('role');
+                
+                // Restore body scroll
+                $('body').removeClass('modal-open');
+                
+                // Restore hidden elements if layout_two was used
+                if ($('.menu-item-search a').hasClass('layout_two')) {
+                    $('.nav-menu').find('.main-menu, .nav-buttons').show();
+                }
+                
+                var self = this;
+                setTimeout(function() {
+                    if (self.lastFocusedElement && self.lastFocusedElement.length) {
+                        self.lastFocusedElement.focus();
+                    }
+                    self.lastFocusedElement = null;
+                }, 10);
+            }
+        },
+        
+        trapFocus: function(element) {
+            if (!element) return null;
+            
+            // Get all focusable elements
+            var focusableElements = element.querySelectorAll(
+                'button, [href], [tabindex]:not([tabindex="-1"])'
+            );
+            
+            // If no focusable elements, return
+            if (focusableElements.length === 0) return null;
+            
+            var firstFocusable = focusableElements[0];
+            var lastFocusable = focusableElements[focusableElements.length - 1];
+            
+            // Focus the first element
+            firstFocusable.focus();
+            
+            // Handle Tab key
+            function handleKeydown(e) {
+                if (e.key !== 'Tab') return;
+                
+                // If shift+tab and currently on first focusable element
+                if (e.shiftKey) {
+                    if (document.activeElement === firstFocusable) {
+                        e.preventDefault();
+                        lastFocusable.focus();
+                    }
+                } 
+                // If tab and currently on last focusable element
+                else {
+                    if (document.activeElement === lastFocusable) {
+                        e.preventDefault();
+                        firstFocusable.focus();
+                    }
+                }
+            }
+            
+            // Add event listener
+            element.addEventListener('keydown', handleKeydown);
+            
+            // Return cleanup function
+            return function removeFocusTrap() {
+                element.removeEventListener('keydown', handleKeydown);
+            };
+        }
+    };
+})(jQuery);
+
 jQuery(document).ready(function ($) {
 
     /**********
@@ -72,18 +231,7 @@ jQuery(document).ready(function ($) {
     */
     SparkConstructionLite.primaryMenu.init();    // Primary Menu
 
-    /** nav item */
-    if ($('.site-header').hasClass('headerfive')) {
-        var i = 1;
-        var midValue = parseInt($('.main-menu >li').length / 2);
-        $('.main-menu >li').each(function () {
-            if (i == midValue) {
-                $(this).addClass('last-child-left');
-                $(this).after('<li class="menu-item menu-item-type-post_type menu-item-object-page logo-wrap text-center"><div class="sparkconstructionlite-logo-wrap">' + jQuery('.site-brandinglogo').html() + '</div></li>');
-            }
-            i++;
-        });
-    }
+    SparkConstructionLite.searchModal.init();    // Search Modal
 
     /**********
      * Mobile Menu Tabs
@@ -103,30 +251,30 @@ jQuery(document).ready(function ($) {
     /**********
      * Header Search
     */
-    $('.menu-item-search a').click(function () {
-        if ($(this).hasClass('layout_two')) {
-            $(this).parents('.nav-menu').find('.main-menu, .nav-buttons').hide();
-        }
-        $('.full-search-wrapper').addClass('search-triggered');
-        setTimeout(function () {
-            $('.full-search-wrapper .search-field').focus();
-        }, 1000);
-    });
+    // $('.menu-item-search a').click(function () {
+    //     if ($(this).hasClass('layout_two')) {
+    //         $(this).parents('.nav-menu').find('.main-menu, .nav-buttons').hide();
+    //     }
+    //     $('.full-search-wrapper').addClass('search-triggered');
+    //     setTimeout(function () {
+    //         $('.full-search-wrapper .search-field').focus();
+    //     }, 1000);
+    // });
 
-    $('.full-search-wrapper .close-icon').click(function () {
-        $('.full-search-wrapper').removeClass('search-triggered');
-    });
+    // $('.full-search-wrapper .close-icon').click(function () {
+    //     $('.full-search-wrapper').removeClass('search-triggered');
+    // });
 
     /**********
      * Search
     */
-     $('.search_main_menu a').click(function () {
-        $('.ss-content').addClass('ss-content-act');
-    });
+    // $('.search_main_menu a').click(function () {
+    //     $('.ss-content').addClass('ss-content-act');
+    // });
     
-    $('.ss-close').click(function () {
-        $('.ss-content').removeClass('ss-content-act');
-    });
+    // $('.ss-close').click(function () {
+    //     $('.ss-content').removeClass('ss-content-act');
+    // });
 
     /**********
      * Sidebar mobile menu 

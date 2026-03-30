@@ -261,7 +261,7 @@ class WorkingProcess extends Widget_Base {
                     'label' => esc_html__('Description', 'spark-construction-lite'),
                     'type' => Controls_Manager::TEXTAREA,
                     'rows' => 10,
-                    'default' => esc_html__('End your search here! Unlock Our Premium Themes to launch your website. All themes are user-friendly and fully customizable.', 'spark-construction-lite'),
+                    'default' => esc_html__('End your search here! Unlock Our Premium Themes to launch your website. All free themes are fully customizable.', 'spark-construction-lite'),
                     'placeholder' => esc_html__('Type your description here', 'spark-construction-lite'),
                 ]
             );
@@ -298,8 +298,8 @@ class WorkingProcess extends Widget_Base {
                     'type' => Controls_Manager::ICONS,
                     'skin' => 'inline',
                     'default' => [
-                        'library' => 'fa-solid',
-                        'value' => 'fas fa-long-arrow-alt-right',
+                        'library' => '',
+                        'value' => '',
                     ],
                     'label_block' => false,
                     'skin_settings' => [
@@ -346,37 +346,28 @@ class WorkingProcess extends Widget_Base {
                         [
                             'process_image' => Utils::get_placeholder_image_src(),
                             'process_title' => esc_html__( 'Working Process Item 1', 'spark-construction-lite' ),
-                            'process_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All themes are user-friendly and fully customizable.', 'spark-construction-lite' ),
+                            'process_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All free themes are fully customizable.', 'spark-construction-lite' ),
                             'process_button_text' => esc_html__( 'Read More', 'spark-construction-lite' ),
                             'process_button_link' => '#',
-                            'link_icon' => [
-                                'value' => 'fas fa-long-arrow-alt-right',
-                                'library' => 'fa-solid',
-                            ],
+                            'link_icon' => '',
                             
                         ],
                         [
                             'process_image' => Utils::get_placeholder_image_src(),
                             'process_title' => esc_html__( 'Working Process Item 2', 'spark-construction-lite' ),
-                            'process_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All themes are user-friendly and fully customizable.', 'spark-construction-lite' ),
+                            'process_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All free themes are fully customizable.', 'spark-construction-lite' ),
                             'process_button_text' => esc_html__( 'Read More', 'spark-construction-lite' ),
                             'process_button_link' => '#',
-                            'link_icon' => [
-                                'value' => 'fas fa-long-arrow-alt-right',
-                                'library' => 'fa-solid',
-                            ],
+                            'link_icon' => '',
                             
                         ],
                         [
                             'process_image' => Utils::get_placeholder_image_src(),
                             'process_title' => esc_html__( 'Working Process Item 3', 'spark-construction-lite' ),
-                            'process_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All themes are user-friendly and fully customizable.', 'spark-construction-lite' ),
+                            'process_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All free themes are fully customizable.', 'spark-construction-lite' ),
                             'process_button_text' => esc_html__( 'Read More', 'spark-construction-lite' ),
                             'process_button_link' => '#',
-                            'link_icon' => [
-                                'value' => 'fas fa-long-arrow-alt-right',
-                                'library' => 'fa-solid',
-                            ],
+                            'link_icon' => '',
                             
                         ],
                     ],
@@ -1362,7 +1353,13 @@ class WorkingProcess extends Widget_Base {
                     <a class="sparkconstructionlite-button sparkconstructionlite-button-noborder" href="<?php echo esc_url( $step['process_button_link']['url'] ); ?>" <?php echo $target . $nofollow; ?>>
                         <?php echo esc_html( $step['process_button_text'] ); ?>
                         <span class="sparkconstructionlite-link-icon elementor-icon">
-                            <?php Icons_Manager::render_icon($step['link_icon'], ['aria-hidden' => 'true']); ?>
+                            <?php 
+                                if (!empty($step['link_icon']['value'])) {
+                                    Icons_Manager::render_icon($step['link_icon'], ['aria-hidden' => 'true']);
+                                } else {
+                                    echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                }
+                            ?>
                         </span>
                     </a>
                 <?php } ?>
@@ -1431,7 +1428,15 @@ class WorkingProcess extends Widget_Base {
                 <?php if (!empty( $step['process_button_link']['url'] ) && !empty( $step['process_button_text'] ) ) { ?>
                     <a class="sparkconstructionlite-button sparkconstructionlite-button-noborder" href="<?php echo esc_url( $step['process_button_link']['url'] ); ?>" <?php echo $target . $nofollow; ?>>
                         <?php echo esc_html( $step['process_button_text'] ); ?>
-                        <span class="sparkconstructionlite-link-icon elementor-icon"><?php Icons_Manager::render_icon($step['link_icon'], ['aria-hidden' => 'true']); ?></span>
+                        <span class="sparkconstructionlite-link-icon elementor-icon">
+                            <?php 
+                                if (!empty($step['link_icon']['value'])) {
+                                    Icons_Manager::render_icon($step['link_icon'], ['aria-hidden' => 'true']);
+                                } else {
+                                    echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                }
+                            ?>
+                        </span>
                     </a>
                 <?php } ?>
                     

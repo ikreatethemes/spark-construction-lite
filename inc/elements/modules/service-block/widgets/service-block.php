@@ -269,8 +269,8 @@ class ServiceBlock extends Widget_Base {
                     'type' => Controls_Manager::ICONS,
                     'skin' => 'inline',
                     'default' => [
-                        'library' => 'fa-solid',
-                        'value' => 'fas fa-long-arrow-alt-right',
+                        'library' => '',
+                        'value' => '',
                     ],
                     'label_block' => false,
                     'skin_settings' => [
@@ -324,10 +324,7 @@ class ServiceBlock extends Widget_Base {
                             'service_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All themes are user-friendly and fully customizable.', 'spark-construction-lite' ),
                             'service_button_text' => esc_html__( 'Read More', 'spark-construction-lite' ),
                             'service_button_link' => '#',
-                            'link_icon' => [
-                                'value' => 'fas fa-long-arrow-alt-right',
-                                'library' => 'fa-solid',
-                            ],
+                            'link_icon' => '',
                             
                         ],
                         [
@@ -340,10 +337,7 @@ class ServiceBlock extends Widget_Base {
                             'service_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All themes are user-friendly and fully customizable.', 'spark-construction-lite' ),
                             'service_button_text' => esc_html__( 'Read More', 'spark-construction-lite' ),
                             'service_button_link' => '#',
-                            'link_icon' => [
-                                'value' => 'fas fa-long-arrow-alt-right',
-                                'library' => 'fa-solid',
-                            ],
+                            'link_icon' => '',
                             
                         ],
                         [
@@ -356,10 +350,7 @@ class ServiceBlock extends Widget_Base {
                             'service_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All themes are user-friendly and fully customizable.', 'spark-construction-lite' ),
                             'service_button_text' => esc_html__( 'Read More', 'spark-construction-lite' ),
                             'service_button_link' => '#',
-                            'link_icon' => [
-                                'value' => 'fas fa-long-arrow-alt-right',
-                                'library' => 'fa-solid',
-                            ],
+                            'link_icon' => '',
                             
                         ],
                         [
@@ -372,10 +363,7 @@ class ServiceBlock extends Widget_Base {
                             'service_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All themes are user-friendly and fully customizable.', 'spark-construction-lite' ),
                             'service_button_text' => esc_html__( 'Read More', 'spark-construction-lite' ),
                             'service_button_link' => '#',
-                            'link_icon' => [
-                                'value' => 'fas fa-long-arrow-alt-right',
-                                'library' => 'fa-solid',
-                            ],
+                            'link_icon' => '',
                             
                         ],
                         [
@@ -388,10 +376,7 @@ class ServiceBlock extends Widget_Base {
                             'service_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All themes are user-friendly and fully customizable.', 'spark-construction-lite' ),
                             'service_button_text' => esc_html__( 'Read More', 'spark-construction-lite' ),
                             'service_button_link' => '#',
-                            'link_icon' => [
-                                'value' => 'fas fa-long-arrow-alt-right',
-                                'library' => 'fa-solid',
-                            ],
+                            'link_icon' => '',
                             
                         ],
                         [
@@ -404,10 +389,7 @@ class ServiceBlock extends Widget_Base {
                             'service_description' => esc_html__( 'End your search here! Unlock Our Premium Themes to launch your website. All themes are user-friendly and fully customizable.', 'spark-construction-lite' ),
                             'service_button_text' => esc_html__( 'Read More', 'spark-construction-lite' ),
                             'service_button_link' => '#',
-                            'link_icon' => [
-                                'value' => 'fas fa-long-arrow-alt-right',
-                                'library' => 'fa-solid',
-                            ],
+                            'link_icon' => '',
                             
                         ]
                     ],
@@ -1233,7 +1215,13 @@ class ServiceBlock extends Widget_Base {
                                                 <<?php Utils::print_validated_html_tag( $button_tag ); ?> <?php $this->print_render_attribute_string( 'leftonlybutton_'.$leftindex ); ?>>
                                                     <?php echo esc_html( $leftpage['service_button_text'] ); ?>
                                                     <span class="sparkconstructionlite-link-icon elementor-icon">
-                                                        <?php Icons_Manager::render_icon($leftpage['link_icon'], ['aria-hidden' => 'true']); ?>
+                                                        <?php 
+                                                            if (!empty($leftpage['link_icon']['value'])) {
+                                                                Icons_Manager::render_icon($leftpage['link_icon'], ['aria-hidden' => 'true']);
+                                                            } else {
+                                                                echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                                            }
+                                                        ?>
                                                     </span>
                                                 </<?php Utils::print_unescaped_internal_string( $button_tag ); ?>>
                                             </div>
@@ -1303,7 +1291,13 @@ class ServiceBlock extends Widget_Base {
                                                 <<?php Utils::print_validated_html_tag( $button_tag ); ?> <?php $this->print_render_attribute_string( 'rightonlybutton_'.$rightindex ); ?>>
                                                     <?php echo esc_html( $rightpage['service_button_text'] ); ?>
                                                     <span class="sparkconstructionlite-link-icon elementor-icon">
-                                                        <?php Icons_Manager::render_icon($rightpage['link_icon'], ['aria-hidden' => 'true']); ?>
+                                                        <?php 
+                                                            if (!empty($rightpage['link_icon']['value'])) {
+                                                                Icons_Manager::render_icon($rightpage['link_icon'], ['aria-hidden' => 'true']);
+                                                            } else {
+                                                                echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                                            }
+                                                        ?>
                                                     </span>
                                                 </<?php Utils::print_unescaped_internal_string( $button_tag ); ?>>
                                             </div>
@@ -1370,7 +1364,13 @@ class ServiceBlock extends Widget_Base {
                                         <<?php Utils::print_validated_html_tag( $button_tag ); ?> <?php $this->print_render_attribute_string( "linkonlybutton_{$pageindex}" ); ?>>
                                             <?php echo esc_html( $page['service_button_text'] ); ?>
                                             <span class="sparkconstructionlite-link-icon elementor-icon">
-                                                <?php Icons_Manager::render_icon($page['link_icon'], ['aria-hidden' => 'true']); ?>
+                                                <?php 
+                                                    if (!empty($page['link_icon']['value'])) {
+                                                        Icons_Manager::render_icon($page['link_icon'], ['aria-hidden' => 'true']);
+                                                    } else {
+                                                        echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                                                    }
+                                                ?>
                                             </span>
                                         </<?php Utils::print_unescaped_internal_string( $button_tag ); ?>>
                                     </div>

@@ -128,19 +128,17 @@ class BlogSection extends Widget_Base {
 
             $this->add_control(
                 'post_count', [
-                    'label' => esc_html__('Number of Posts', 'spark-construction-lite'),
+                    'label' => esc_html__('Display Number of Posts', 'spark-construction-lite'),
                     'type' => Controls_Manager::SLIDER,
-                    'size_units' => ['star'],
                     'range' => [
-                        'star' => [
+                        'px' => [
                             'min' => 1,
-                            'max' => 12,
-                            'step' => 1
+                            'max' => 20,
                         ],
                     ],
                     'default' => [
-                        'unit' => 'star',
                         'size' => 6,
+                        'unit' => 'px',
                     ]
                 ]
             );
@@ -237,8 +235,8 @@ class BlogSection extends Widget_Base {
                     'skin' => 'inline',
                     'label_block' => false,
                     'default' => [
-                        'library' => 'fa-solid',
-                        'value' => 'fas fa-long-arrow-alt-right',
+                        'library' => '',
+                        'value' => '',
                     ],
                     'skin_settings' => [
                         'inline' => [
@@ -1016,7 +1014,8 @@ class BlogSection extends Widget_Base {
 
         $args = array(
             'posts_per_page' => $settings['post_count']['size'],
-            'category__not_in' => $settings['exclude_cats']
+            'category__not_in' => $settings['exclude_cats'],
+            'ignore_sticky_posts' => 1,
         );
 
         $query = new \WP_Query($args);
@@ -1059,7 +1058,8 @@ class BlogSection extends Widget_Base {
 
         $args = array(
             'posts_per_page' => $settings['post_count']['size'],
-            'category__not_in' => $settings['exclude_cats']
+            'category__not_in' => $settings['exclude_cats'],
+            'ignore_sticky_posts' => 1,
         );
 
         $query = new \WP_Query($args);
@@ -1138,7 +1138,13 @@ class BlogSection extends Widget_Base {
                 <a class="sparkconstructionlite-button sparkconstructionlite-button-noborder" href="<?php the_permalink(); ?>">
                     <?php echo esc_html($settings['readmore_text']); ?>
                     <span class="sparkconstructionlite-link-icon elementor-icon">
-                        <?php Icons_Manager::render_icon($settings['readmore_icon'], ['aria-hidden' => 'true']); ?>
+                        <?php 
+                            if (!empty($settings['readmore_icon']['value'])) {
+                                Icons_Manager::render_icon($settings['readmore_icon'], ['aria-hidden' => 'true']);
+                            } else {
+                                echo '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="default-icon"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>';
+                            }
+                        ?>
                     </span>
                 </a>
             </div>

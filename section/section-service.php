@@ -168,7 +168,7 @@ if( !function_exists("sparkconstructionlite_themes_service_default_content_secon
                         <h3><a href="<?php echo esc_url( get_the_permalink($page->service_page) ); ?>"><?php echo esc_html( get_the_title($page->service_page) ); ?></a></h3>
                         <p><?php echo esc_html( get_the_excerpt( $page->service_page ) ); ?></p>
                         <?php if( !empty( $page->button_text ) ){ ?>
-                            <a href="<?php echo esc_url( $page->button_url ); ?>" class="btn btn-noborder">
+                            <a href="<?php echo esc_url( get_the_permalink($page->service_page) ); ?>" class="btn btn-noborder">
                                 <?php echo esc_html( $page->button_text ); ?>
                             </a>
                         <?php } ?>
